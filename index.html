@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>哲学の言葉 - 悩みと対話する</title>
+<style>
+  :root {
+    --bg: #f5f3ef;
+    --accent: #5a7d6a;
+    --accent-light: #7a9d8a;
+    --accent-dark: #3d5e4a;
+    --text: #2c2c2c;
+    --text-muted: #888;
+    --card-bg: #ffffff;
+    --node-bg: #ffffff;
+    --border: #ddd8d0;
+    --shadow: 0 4px 24px rgba(0,0,0,0.10);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    min-height: 100vh;
+  }
+
+  /* ===== SCREENS ===== */
+  .screen { display: none; }
+  .screen.active { display: block; }
+
+  /* ===== INPUT SCREEN ===== */
+  #screen-input {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+  #screen-input.active { display: flex; }
+  .input-logo {
+    font-size: 13px;
+    letter-spacing: 0.15em;
+    color: var(--accent);
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    font-weight: 600;
+  }
+  .input-title {
+    font-size: clamp(24px, 5vw, 38px);
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 8px;
+    line-height: 1.4;
+  }
+  .input-subtitle {
+    color: var(--text-muted);
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .input-box-wrap {
+    width: 100%;
+    max-width: 560px;
+    background: var(--card-bg);
+    border-radius: 16px;
+    box-shadow: var(--shadow);
+    padding: 32px;
+  }
+  .input-box-wrap textarea {
+    width: 100%;
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    padding: 16px;
+    font-size: 16px;
+    font-family: inherit;
+    resize: none;
+    background: var(--bg);
+    color: var(--text);
+    outline: none;
+    transition: border 0.2s;
+    min-height: 120px;
+  }
+  .input-box-wrap textarea:focus { border-color: var(--accent); }
+  .input-box-wrap textarea::placeholder { color: #aaa; }
+  .btn-primary {
+    display: block;
+    width: 100%;
+    margin-top: 16px;
+    padding: 14px;
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+  }
+  .btn-primary:hover { background: var(--accent-dark); }
+  .btn-primary:active { transform: scale(0.98); }
+  .btn-primary:disabled { background: #b0c4b8; cursor: not-allowed; }
+  .api-section {
+    margin-top: 24px;
+    border-top: 1px solid var(--border);
+    padding-top: 20px;
+  }
+  .api-label {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-bottom: 6px;
+  }
+  .api-input-row {
+    display: flex;
+    gap: 8px;
+  }
+  .api-input-row input {
+    flex: 1;
+    border: 1.5px solid var(--border);
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 13px;
+    font-family: inherit;
+    background: var(--bg);
+    color: var(--text);
+    outline: none;
+  }
+  .api-input-row input:focus { border-color: var(--accent); }
+  .btn-small {
+    padding: 8px 14px;
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 13px;
+    font-family: inherit;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .btn-small:hover { background: var(--accent-dark); }
+  .status-msg {
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-top: 8px;
+    min-height: 18px;
+    text-align: center;
+  }
+  .status-msg.error { color: #c0392b; }
+  .status-msg.ok { color: var(--accent); }
+
+  /* ===== SPIDER MAP SCREEN ===== */
+  #screen-spider {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  #screen-spider.active { display: flex; }
+  .spider-header {
+    display: flex;
+    align-items: center;
+    padding: 16px 24px;
+    border-bottom: 1px solid var(--border);
+    background: var(--card-bg);
+    gap: 12px;
+  }
+  .btn-back {
+    background: none;
+    border: 1.5px solid var(--border);
+    border-radius: 8px;
+    padding: 6px 14px;
+    font-size: 14px;
+    font-family: inherit;
+    color: var(--text);
+    cursor: pointer;
+    transition: border-color 0.2s;
+  }
+  .btn-back:hover { border-color: var(--accent); color: var(--accent); }
+  .spider-header-title {
+    font-size: 18px;
+    font-weight: 700;
+    flex: 1;
+  }
+  .spider-theme-badge {
+    background: var(--accent);
+    color: #fff;
+    border-radius: 20px;
+    padding: 4px 14px;
+    font-size: 13px;
+  }
+
+  .spider-canvas-wrap {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    min-height: 480px;
+  }
+  #spider-svg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0; left: 0;
+  }
+  .spider-nodes-wrap {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    pointer-events: none;
+  }
+  .spider-center {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    pointer-events: none;
+  }
+  .spider-center-label {
+    font-size: clamp(18px, 3vw, 26px);
+    font-weight: 700;
+    line-height: 1.4;
+    color: var(--text);
+  }
+  .spider-center-hint {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-top: 4px;
+  }
+  .spider-node {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    background: var(--node-bg);
+    border-radius: 50%;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.10);
+    cursor: pointer;
+    pointer-events: all;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 12px;
+    transition: box-shadow 0.2s, transform 0.2s;
+    border: 1.5px solid var(--border);
+  }
+  .spider-node:hover {
+    box-shadow: 0 6px 24px rgba(90,125,106,0.22);
+    transform: translate(-50%, -50%) scale(1.07);
+    border-color: var(--accent);
+    z-index: 10;
+  }
+  .node-genre-badge {
+    font-size: 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 2px 8px;
+    margin-bottom: 5px;
+    color: #fff;
+  }
+  .node-text {
+    font-size: 11px;
+    line-height: 1.4;
+    color: var(--text);
+    word-break: break-all;
+  }
+  .node-author {
+    font-size: 10px;
+    color: var(--text-muted);
+    margin-top: 4px;
+  }
+
+  .spider-author-label {
+    position: absolute;
+    font-size: 11px;
+    color: var(--text-muted);
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    white-space: nowrap;
+  }
+
+  /* ===== GENRE COLORS ===== */
+  .genre-哲学 { background: #5a7d6a; }
+  .genre-文学 { background: #7b6ea0; }
+  .genre-仏教 { background: #c08a3a; }
+  .genre-心理学 { background: #3a7ba0; }
+  .genre-詩 { background: #a05a6e; }
+  .genre-日本の古典 { background: #6ea05a; }
+
+  /* ===== DETAIL CARD OVERLAY ===== */
+  #overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(44,44,44,0.45);
+    z-index: 100;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  #overlay.active { display: flex; }
+  .detail-card {
+    background: var(--card-bg);
+    border-radius: 16px;
+    max-width: 580px;
+    width: 100%;
+    padding: 40px 36px 32px;
+    position: relative;
+    box-shadow: 0 8px 48px rgba(0,0,0,0.18);
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+  .detail-close {
+    position: absolute;
+    top: 16px; right: 16px;
+    background: none;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+    color: var(--text-muted);
+    line-height: 1;
+    padding: 4px 8px;
+    border-radius: 6px;
+    transition: background 0.2s;
+  }
+  .detail-close:hover { background: var(--bg); }
+  .detail-genre-badge {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 12px;
+    padding: 3px 12px;
+    color: #fff;
+    margin-bottom: 16px;
+  }
+  .detail-quote {
+    font-size: clamp(18px, 3vw, 24px);
+    font-weight: 700;
+    line-height: 1.6;
+    border-left: 4px solid var(--accent);
+    padding-left: 16px;
+    margin-bottom: 16px;
+  }
+  .detail-source {
+    font-size: 14px;
+    color: var(--text-muted);
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+  .detail-explanation {
+    font-size: 15px;
+    line-height: 1.8;
+    color: var(--text);
+    margin-bottom: 20px;
+  }
+  .detail-divider {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 20px 0;
+  }
+  .detail-prompt { font-size: 13px; color: var(--text-muted); margin-bottom: 8px; }
+  .detail-input {
+    width: 100%;
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    padding: 12px 16px;
+    font-size: 15px;
+    font-family: inherit;
+    resize: none;
+    background: var(--bg);
+    color: var(--text);
+    outline: none;
+    min-height: 80px;
+    transition: border 0.2s;
+  }
+  .detail-input:focus { border-color: var(--accent); }
+  .detail-send-row {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  .btn-send {
+    padding: 10px 24px;
+    background: var(--accent);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    font-family: inherit;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+  }
+  .btn-send:hover { background: var(--accent-dark); }
+
+  /* ===== PERSONAL PHILOSOPHY SECTION ===== */
+  .philosophy-section {
+    background: var(--card-bg);
+    border-top: 1px solid var(--border);
+    padding: 32px 24px;
+  }
+  .philosophy-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 6px;
+  }
+  .philosophy-subtitle {
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-bottom: 16px;
+  }
+  .philosophy-context {
+    font-size: 13px;
+    color: var(--text-muted);
+    margin-bottom: 8px;
+  }
+  .philosophy-textarea {
+    width: 100%;
+    border: 1.5px solid var(--border);
+    border-radius: 10px;
+    padding: 14px;
+    font-size: 15px;
+    font-family: inherit;
+    resize: vertical;
+    background: var(--bg);
+    color: var(--text);
+    outline: none;
+    min-height: 100px;
+    transition: border 0.2s;
+  }
+  .philosophy-textarea:focus { border-color: var(--accent); }
+  .philosophy-save-row {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  .philosophy-history {
+    margin-top: 24px;
+  }
+  .philosophy-history-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--text-muted);
+    margin-bottom: 12px;
+  }
+  .history-entry {
+    background: var(--bg);
+    border-radius: 10px;
+    padding: 14px 16px;
+    margin-bottom: 10px;
+    border: 1px solid var(--border);
+  }
+  .history-entry-meta {
+    font-size: 12px;
+    color: var(--text-muted);
+    margin-bottom: 6px;
+  }
+  .history-entry-text {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  /* ===== LOADING ===== */
+  .loading-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(245,243,239,0.8);
+    z-index: 200;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .loading-overlay.active { display: flex; }
+  .spinner {
+    width: 40px; height: 40px;
+    border: 3px solid var(--border);
+    border-top-color: var(--accent);
+    border-radius: 50%;
+    animation: spin 0.8s linear infinite;
+  }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .loading-text { font-size: 14px; color: var(--text-muted); }
+
+  /* ===== ZOOM CONTROLS ===== */
+  .zoom-controls {
+    position: absolute;
+    bottom: 16px; right: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    z-index: 5;
+  }
+  .zoom-btn {
+    width: 36px; height: 36px;
+    background: var(--card-bg);
+    border: 1.5px solid var(--border);
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    transition: border-color 0.2s;
+    color: var(--text);
+  }
+  .zoom-btn:hover { border-color: var(--accent); }
+
+  @media (max-width: 600px) {
+    .detail-card { padding: 28px 18px 24px; }
+    .detail-quote { font-size: 18px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- Loading overlay -->
+<div class="loading-overlay" id="loading">
+  <div class="spinner"></div>
+  <div class="loading-text" id="loading-text">AIが悩みを分析しています…</div>
+</div>
+
+<!-- SCREEN 1: Input -->
+<section class="screen active" id="screen-input">
+  <div class="input-logo">Philosophy DB</div>
+  <h1 class="input-title">今、どんな悩みを<br>抱えていますか？</h1>
+  <p class="input-subtitle">言葉を入力すると、哲学者たちの知恵があなたに語りかけます</p>
+  <div class="input-box-wrap">
+    <textarea id="worry-input" placeholder="例：仕事でうまくいかない日が続いていて、自分には向いていないのかと思ってしまう…" rows="5"></textarea>
+    <button class="btn-primary" id="btn-analyze" onclick="analyzeWorry()">哲学者たちの言葉を探す</button>
+    <div class="status-msg" id="input-status"></div>
+    <div class="api-section">
+      <div class="api-label">Claude API キー（任意）</div>
+      <div class="api-input-row">
+        <input type="password" id="api-key-input" placeholder="sk-ant-..." autocomplete="off">
+        <button class="btn-small" onclick="saveApiKey()">保存</button>
+      </div>
+      <div class="status-msg" id="api-key-status"></div>
+    </div>
+  </div>
+</section>
+
+<!-- SCREEN 2: Spider Map -->
+<section class="screen" id="screen-spider">
+  <div class="spider-header">
+    <button class="btn-back" onclick="showScreen('input')">← 戻る</button>
+    <div class="spider-header-title" id="spider-theme-label"></div>
+    <div class="spider-theme-badge" id="spider-theme-badge"></div>
+  </div>
+  <div class="spider-canvas-wrap" id="spider-canvas">
+    <svg id="spider-svg"></svg>
+    <div class="spider-nodes-wrap" id="spider-nodes"></div>
+    <div class="spider-center" id="spider-center">
+      <div class="spider-center-label" id="spider-center-text"></div>
+      <div class="spider-center-hint">言葉をクリックして<br>対話してみてください</div>
+    </div>
+    <div class="zoom-controls">
+      <button class="zoom-btn" onclick="zoomIn()">+</button>
+      <button class="zoom-btn" onclick="zoomOut()">−</button>
+      <button class="zoom-btn" onclick="zoomReset()" title="リセット">⊙</button>
+    </div>
+  </div>
+
+  <!-- Personal Philosophy -->
+  <div class="philosophy-section">
+    <h2 class="philosophy-title">今のあなたの哲学は？</h2>
+    <p class="philosophy-subtitle">この言葉たちと対話して、あなた自身の言葉を残してみてください</p>
+    <div class="philosophy-context" id="philosophy-context"></div>
+    <textarea class="philosophy-textarea" id="philosophy-text" placeholder="この悩みを経て、今あなたが感じていることを自由に書いてください…"></textarea>
+    <div class="philosophy-save-row">
+      <button class="btn-send" onclick="savePhilosophy()">保存する</button>
+    </div>
+    <div class="philosophy-history" id="philosophy-history"></div>
+  </div>
+</section>
+
+<!-- Detail Card Overlay -->
+<div id="overlay" onclick="closeOverlay(event)">
+  <div class="detail-card" id="detail-card">
+    <button class="detail-close" onclick="closeOverlay()">×</button>
+    <div class="detail-genre-badge" id="d-genre"></div>
+    <div class="detail-quote" id="d-quote"></div>
+    <div class="detail-source" id="d-source"></div>
+    <div class="detail-explanation" id="d-explanation"></div>
+    <hr class="detail-divider">
+    <div class="detail-prompt">この言葉について、あなたの考えを</div>
+    <textarea class="detail-input" id="detail-user-input" placeholder="この言葉を読んで、あなたはどう思いますか？"></textarea>
+    <div class="detail-send-row">
+      <button class="btn-send" onclick="sendDetailThought()">送信</button>
+    </div>
+    <div class="status-msg" id="detail-status"></div>
+  </div>
+</div>
+
+<script>
+// ===== STATE =====
+let DB = null;
+let currentThemeId = null;
+let currentThemeLabel = null;
+let zoomLevel = 1;
+let panX = 0, panY = 0;
+
+// ===== INIT =====
+window.addEventListener('DOMContentLoaded', async () => {
+  // Restore API key
+  const saved = localStorage.getItem('claude_api_key');
+  if (saved) document.getElementById('api-key-input').value = saved;
+
+  // Load database
+  try {
+    const res = await fetch('./philosophy-database.json');
+    if (res.ok) {
+      DB = await res.json();
+    }
+  } catch(e) {
+    console.warn('DB load failed:', e);
+  }
+});
+
+function getApiKey() {
+  return localStorage.getItem('claude_api_key') || document.getElementById('api-key-input').value.trim();
+}
+
+function saveApiKey() {
+  const key = document.getElementById('api-key-input').value.trim();
+  if (!key) { setStatus('api-key-status', 'APIキーを入力してください', 'error'); return; }
+  localStorage.setItem('claude_api_key', key);
+  setStatus('api-key-status', '保存しました', 'ok');
+}
+
+function setStatus(id, msg, type='') {
+  const el = document.getElementById(id);
+  if (!el) return;
+  el.textContent = msg;
+  el.className = 'status-msg ' + type;
+}
+
+function showScreen(name) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.getElementById('screen-' + name).classList.add('active');
+}
+
+function showLoading(text='AIが悩みを分析しています…') {
+  document.getElementById('loading-text').textContent = text;
+  document.getElementById('loading').classList.add('active');
+}
+
+function hideLoading() {
+  document.getElementById('loading').classList.remove('active');
+}
+
+// ===== ANALYZE WORRY =====
+async function analyzeWorry() {
+  const worry = document.getElementById('worry-input').value.trim();
+  if (!worry) { setStatus('input-status', '悩みを入力してください', 'error'); return; }
+
+  const apiKey = getApiKey();
+  if (!apiKey) { setStatus('input-status', 'Claude APIキーを入力してください', 'error'); return; }
+
+  if (!DB) {
+    setStatus('input-status', 'philosophy-database.json を読み込めませんでした', 'error');
+    return;
+  }
+
+  showLoading('AIが悩みを分析しています…');
+  setStatus('input-status', '');
+
+  try {
+    const themeList = DB.themes.map(t => `${t.id}: ${t.label}`).join('\n');
+    const prompt = `以下の悩みがどのテーマに最も近いか、IDのみ1つ返してください。
+
+悩み：${worry}
+
+テーマ一覧：
+${themeList}
+
+最も近いテーマのIDのみを返してください（例: comparison）`;
+
+    const res = await callClaude(apiKey, prompt);
+    const themeId = res.trim().replace(/[^a-z_]/g, '');
+
+    const theme = DB.themes.find(t => t.id === themeId) || DB.themes[0];
+    showSpiderMap(theme.id, theme.label);
+  } catch(e) {
+    hideLoading();
+    setStatus('input-status', 'エラー: ' + e.message, 'error');
+  }
+}
+
+async function callClaude(apiKey, prompt, system='') {
+  const body = {
+    model: 'claude-haiku-4-5-20251001',
+    max_tokens: 256,
+    messages: [{ role: 'user', content: prompt }]
+  };
+  if (system) body.system = system;
+
+  const res = await fetch('https://api.anthropic.com/v1/messages', {
+    method: 'POST',
+    headers: {
+      'x-api-key': apiKey,
+      'anthropic-version': '2023-06-01',
+      'content-type': 'application/json',
+      'anthropic-dangerous-direct-browser-calls': 'true'
+    },
+    body: JSON.stringify(body)
+  });
+
+  if (!res.ok) {
+    const err = await res.json().catch(() => ({}));
+    throw new Error(err.error?.message || `HTTP ${res.status}`);
+  }
+
+  const data = await res.json();
+  return data.content[0].text;
+}
+
+// ===== SPIDER MAP =====
+function showSpiderMap(themeId, themeLabel) {
+  currentThemeId = themeId;
+  currentThemeLabel = themeLabel;
+
+  document.getElementById('spider-theme-label').textContent = themeLabel;
+  document.getElementById('spider-theme-badge').textContent = themeLabel;
+  document.getElementById('spider-center-text').textContent = themeLabel;
+  document.getElementById('philosophy-context').textContent = `テーマ：${themeLabel}`;
+
+  // Reset zoom/pan
+  zoomLevel = 1; panX = 0; panY = 0;
+
+  renderSpider();
+  showScreen('spider');
+  hideLoading();
+  renderHistory();
+}
+
+function renderSpider() {
+  if (!DB || !currentThemeId) return;
+  const entries = DB.entries.filter(e => e.theme_id === currentThemeId);
+
+  const canvas = document.getElementById('spider-canvas');
+  const W = canvas.offsetWidth || 800;
+  const H = Math.max(canvas.offsetHeight, 480);
+  const cx = W / 2 + panX;
+  const cy = H / 2 + panY;
+
+  const nodeSize = Math.min(W, H) * 0.13 * zoomLevel;
+  const radius = Math.min(W, H) * 0.35 * zoomLevel;
+
+  // SVG lines
+  const svg = document.getElementById('spider-svg');
+  svg.innerHTML = '';
+  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+
+  const nodesWrap = document.getElementById('spider-nodes');
+  nodesWrap.innerHTML = '';
+
+  // Center marker
+  const center = document.getElementById('spider-center');
+  center.style.left = cx + 'px';
+  center.style.top = cy + 'px';
+  center.style.fontSize = (16 * zoomLevel) + 'px';
+
+  entries.forEach((entry, i) => {
+    const angle = (2 * Math.PI * i / entries.length) - Math.PI / 2;
+    const nx = cx + radius * Math.cos(angle);
+    const ny = cy + radius * Math.sin(angle);
+
+    // SVG line
+    const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+    line.setAttribute('x1', cx); line.setAttribute('y1', cy);
+    line.setAttribute('x2', nx); line.setAttribute('y2', ny);
+    line.setAttribute('stroke', '#d5d0c8');
+    line.setAttribute('stroke-width', '1.5');
+    svg.appendChild(line);
+
+    // Author label between center and node
+    const lx = cx + (radius * 0.65) * Math.cos(angle);
+    const ly = cy + (radius * 0.65) * Math.sin(angle);
+    const authorLabel = document.createElement('div');
+    authorLabel.className = 'spider-author-label';
+    authorLabel.style.left = lx + 'px';
+    authorLabel.style.top = ly + 'px';
+    authorLabel.style.fontSize = (10 * zoomLevel) + 'px';
+    authorLabel.textContent = entry.author;
+    nodesWrap.appendChild(authorLabel);
+
+    // Node
+    const node = document.createElement('div');
+    node.className = 'spider-node';
+    node.style.left = nx + 'px';
+    node.style.top = ny + 'px';
+    node.style.width = nodeSize + 'px';
+    node.style.height = nodeSize + 'px';
+
+    const badge = document.createElement('div');
+    badge.className = 'node-genre-badge genre-' + entry.genre;
+    badge.style.fontSize = (9 * zoomLevel) + 'px';
+    badge.textContent = entry.genre;
+
+    const textEl = document.createElement('div');
+    textEl.className = 'node-text';
+    textEl.style.fontSize = (10 * zoomLevel) + 'px';
+    const short = entry.text.length > 30 ? entry.text.slice(0, 28) + '…' : entry.text;
+    textEl.textContent = short;
+
+    node.appendChild(badge);
+    node.appendChild(textEl);
+    node.onclick = () => openDetail(entry);
+    nodesWrap.appendChild(node);
+  });
+}
+
+window.addEventListener('resize', () => {
+  if (document.getElementById('screen-spider').classList.contains('active')) {
+    renderSpider();
+  }
+});
+
+function zoomIn() { zoomLevel = Math.min(zoomLevel * 1.2, 3); renderSpider(); }
+function zoomOut() { zoomLevel = Math.max(zoomLevel / 1.2, 0.4); renderSpider(); }
+function zoomReset() { zoomLevel = 1; panX = 0; panY = 0; renderSpider(); }
+
+// ===== DETAIL OVERLAY =====
+function openDetail(entry) {
+  document.getElementById('d-genre').textContent = entry.genre;
+  document.getElementById('d-genre').className = 'detail-genre-badge genre-' + entry.genre;
+  document.getElementById('d-quote').textContent = entry.text;
+  document.getElementById('d-source').textContent =
+    `${entry.author}（『${entry.source}』${entry.year}）`;
+  document.getElementById('d-explanation').textContent = entry.explanation;
+  document.getElementById('detail-user-input').value = '';
+  setStatus('detail-status', '');
+  document.getElementById('overlay').classList.add('active');
+}
+
+function closeOverlay(e) {
+  if (!e || e.target === document.getElementById('overlay')) {
+    document.getElementById('overlay').classList.remove('active');
+  }
+}
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'Escape') closeOverlay();
+});
+
+async function sendDetailThought() {
+  const thought = document.getElementById('detail-user-input').value.trim();
+  if (!thought) { setStatus('detail-status', '考えを入力してください', 'error'); return; }
+
+  const apiKey = getApiKey();
+  if (!apiKey) { setStatus('detail-status', 'APIキーが未設定です', 'error'); return; }
+
+  setStatus('detail-status', '応答を生成中…');
+  const quote = document.getElementById('d-quote').textContent;
+
+  try {
+    const reply = await callClaude(apiKey,
+      `以下の哲学の言葉について、ユーザーが考えを述べました。共感しながら哲学的に応答してください（200文字以内）。\n\n言葉：「${quote}」\nユーザーの考え：${thought}`,
+      '哲学の対話者として、温かく知的に応答してください。'
+    );
+    setStatus('detail-status', reply, 'ok');
+  } catch(e) {
+    setStatus('detail-status', 'エラー: ' + e.message, 'error');
+  }
+}
+
+// ===== PERSONAL PHILOSOPHY =====
+function savePhilosophy() {
+  const text = document.getElementById('philosophy-text').value.trim();
+  if (!text) return;
+
+  const records = JSON.parse(localStorage.getItem('philosophy_records') || '[]');
+  records.unshift({
+    date: new Date().toLocaleDateString('ja-JP'),
+    theme: currentThemeLabel,
+    text: text
+  });
+  localStorage.setItem('philosophy_records', JSON.stringify(records.slice(0, 50)));
+  document.getElementById('philosophy-text').value = '';
+  renderHistory();
+}
+
+function renderHistory() {
+  const records = JSON.parse(localStorage.getItem('philosophy_records') || '[]');
+  const container = document.getElementById('philosophy-history');
+  if (!records.length) { container.innerHTML = ''; return; }
+
+  container.innerHTML = `<div class="philosophy-history-title">過去の記録</div>` +
+    records.map(r => `
+      <div class="history-entry">
+        <div class="history-entry-meta">${r.date}　テーマ：${r.theme}</div>
+        <div class="history-entry-text">${escapeHtml(r.text)}</div>
+      </div>
+    `).join('');
+}
+
+function escapeHtml(s) {
+  return s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+</script>
+</body>
+</html>

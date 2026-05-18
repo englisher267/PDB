@@ -1,0 +1,3126 @@
+{
+  "themes": [
+    {
+      "id": "comparison",
+      "label": "人と比較してしまう"
+    },
+    {
+      "id": "loneliness",
+      "label": "孤独を感じる"
+    },
+    {
+      "id": "people_pleasing",
+      "label": "人に合わせすぎてしまう"
+    },
+    {
+      "id": "unforgiving",
+      "label": "誰かを許せない"
+    },
+    {
+      "id": "jealousy",
+      "label": "嫉妬してしまう"
+    },
+    {
+      "id": "relationship_reset",
+      "label": "人間関係をリセットしたくなる"
+    },
+    {
+      "id": "cant_be_honest",
+      "label": "本音が言えない"
+    },
+    {
+      "id": "identity_lost",
+      "label": "自分が何者かわからない"
+    },
+    {
+      "id": "no_confidence",
+      "label": "自信が持てない"
+    },
+    {
+      "id": "no_purpose",
+      "label": "やりたいことが見つからない"
+    },
+    {
+      "id": "past_regret",
+      "label": "過去を引きずってしまう"
+    },
+    {
+      "id": "emotional_control",
+      "label": "感情のコントロールができない"
+    },
+    {
+      "id": "perfectionism",
+      "label": "完璧主義で疲れてしまう"
+    },
+    {
+      "id": "self_dislike",
+      "label": "自分を好きになれない"
+    },
+    {
+      "id": "work_meaningless",
+      "label": "仕事の意味が見えない"
+    },
+    {
+      "id": "career_change",
+      "label": "転職すべきか迷っている"
+    },
+    {
+      "id": "effort_unrewarded",
+      "label": "努力が報われない気がする"
+    },
+    {
+      "id": "work_purpose",
+      "label": "何のために働くかわからない"
+    },
+    {
+      "id": "dream_abandon",
+      "label": "夢を諦めるべきか迷っている"
+    },
+    {
+      "id": "life_meaning",
+      "label": "生きる意味がわからない"
+    },
+    {
+      "id": "fear_of_change",
+      "label": "変化が怖い"
+    },
+    {
+      "id": "happiness_unknown",
+      "label": "幸せとは何かわからない"
+    },
+    {
+      "id": "death_thoughts",
+      "label": "死について考えてしまう"
+    },
+    {
+      "id": "time_wasted",
+      "label": "時間が無駄に過ぎている気がする"
+    },
+    {
+      "id": "choice_regret",
+      "label": "選択を後悔してしまう"
+    },
+    {
+      "id": "world_dissatisfaction",
+      "label": "世の中への不満"
+    },
+    {
+      "id": "money_happiness",
+      "label": "お金と幸せの関係"
+    },
+    {
+      "id": "ai_era",
+      "label": "AIの時代をどう生きるか"
+    },
+    {
+      "id": "no_correct_answer",
+      "label": "正解のない時代をどう生きるか"
+    },
+    {
+      "id": "powerlessness",
+      "label": "環境や社会への無力感"
+    }
+  ],
+  "entries": [
+    {
+      "id": "comparison_1",
+      "theme_id": "comparison",
+      "text": "他人と自分を比較するのは、自分を苦しめる確実な方法である。",
+      "author": "マーク・トウェイン",
+      "genre": "文学",
+      "source": "マーク・トウェインの言葉",
+      "year": "19世紀後半",
+      "explanation": "アメリカの文豪が、比較という行為が自己を傷つける本質を端的に指摘。他者との比較が幸福を遠ざけることへの警鐘。"
+    },
+    {
+      "id": "comparison_2",
+      "theme_id": "comparison",
+      "text": "人の世を作ったものは神でもなければ鬼でもない。やはり向こう三軒両隣にちらちらするただの人である。",
+      "author": "夏目漱石",
+      "genre": "文学",
+      "source": "草枕",
+      "year": "1906年",
+      "explanation": "漱石は人間社会の本質を描き、周囲の人々との関係性の中で生きる人間の姿を示す。比較の対象も結局は同じ人間であることを気づかせる。"
+    },
+    {
+      "id": "comparison_3",
+      "theme_id": "comparison",
+      "text": "おのれに存する偉大なるものの小を感ずることのできない人は、他人に存する小なるものの偉大を見逃しがちである。",
+      "author": "岡倉天心",
+      "genre": "哲学",
+      "source": "茶の本",
+      "year": "1906年",
+      "explanation": "天心は自己認識の重要性を説き、自分の価値を正しく見つめることで他者との健全な関係が築けることを示唆している。"
+    },
+    {
+      "id": "comparison_4",
+      "theme_id": "comparison",
+      "text": "犀の角のようにただ独り歩め。",
+      "author": "釈迦",
+      "genre": "仏教",
+      "source": "スッタニパータ",
+      "year": "紀元前5世紀頃",
+      "explanation": "仏陀は他者に惑わされず自分の道を歩むことを犀の角に例えた。比較から離れ、独自の道を進む勇気を与える教え。"
+    },
+    {
+      "id": "comparison_5",
+      "theme_id": "comparison",
+      "text": "汝自身を知れ。",
+      "author": "ソクラテス",
+      "genre": "哲学",
+      "source": "デルポイの神託",
+      "year": "紀元前5世紀",
+      "explanation": "古代ギリシャの根本的教えは、他者ではなく自己を見つめることの重要性を説く。比較の前にまず自己理解が必要であることを示す。"
+    },
+    {
+      "id": "comparison_6",
+      "theme_id": "comparison",
+      "text": "嫉妬とは、自分と他人を比較するところから生まれる。比較をやめれば、嫉妬も消える。",
+      "author": "老子",
+      "genre": "哲学",
+      "source": "道徳経",
+      "year": "紀元前6世紀頃",
+      "explanation": "道家思想の祖は比較から生じる嫉妬の苦しみを指摘。無為自然の境地に至れば比較の苦しみから解放されることを説く。"
+    },
+    {
+      "id": "comparison_7",
+      "theme_id": "comparison",
+      "text": "われはわが分を守らんのみ。",
+      "author": "吉田兼好",
+      "genre": "日本の古典",
+      "source": "徒然草",
+      "year": "1330年頃",
+      "explanation": "兼好法師は自分の分際をわきまえることの大切さを説いた。他者と比べず、自分の立場で最善を尽くす姿勢を教えている。"
+    },
+    {
+      "id": "comparison_8",
+      "theme_id": "comparison",
+      "text": "自分自身であることに満足している者は、誰とも競わない。だから誰も彼と競うことができない。",
+      "author": "荘子",
+      "genre": "哲学",
+      "source": "荘子",
+      "year": "紀元前4世紀頃",
+      "explanation": "荘子は自己充足の境地を説き、競争や比較から離れることで真の自由が得られることを示している。"
+    },
+    {
+      "id": "comparison_9",
+      "theme_id": "comparison",
+      "text": "人間の不幸の多くは、自分がどこにいるべきかを知らず、自分の場所を離れることから生じる。",
+      "author": "ブレーズ・パスカル",
+      "genre": "哲学",
+      "source": "パンセ",
+      "year": "1670年",
+      "explanation": "パスカルは人間が自己の居場所を見失い、他者の位置を羨むことの虚しさを指摘。比較による不幸の本質を突いている。"
+    },
+    {
+      "id": "comparison_10",
+      "theme_id": "comparison",
+      "text": "他者と比較して自分を測る限り、あなたは自尊心か劣等感のどちらかの囚人になる。",
+      "author": "アルフレッド・アドラー",
+      "genre": "心理学",
+      "source": "アドラー心理学",
+      "year": "20世紀前半",
+      "explanation": "アドラーは比較が優越感か劣等感しか生まないことを指摘。健全な自己肯定には比較からの脱却が必要であることを説く。"
+    },
+    {
+      "id": "loneliness_1",
+      "theme_id": "loneliness",
+      "text": "孤独は山になく、街にある。一人の人間にあるのでなく、大勢の人間の間にあるのである。",
+      "author": "三木清",
+      "genre": "哲学",
+      "source": "人生論ノート",
+      "year": "1941年",
+      "explanation": "哲学者三木清は真の孤独が物理的な隔離ではなく、人々の中にいながら感じる疎外感であることを鋭く洞察している。"
+    },
+    {
+      "id": "loneliness_2",
+      "theme_id": "loneliness",
+      "text": "この世をばどりゃ夢にてあけり候、もとの夢から何も変はらず。",
+      "author": "松尾芭蕉",
+      "genre": "詩",
+      "source": "芭蕉辞世",
+      "year": "1694年",
+      "explanation": "芭蕉は人生の無常と孤独を夢に例えた。孤独の中にも達観した境地があることを示す俳人の最期の言葉。"
+    },
+    {
+      "id": "loneliness_3",
+      "theme_id": "loneliness",
+      "text": "ひとはひとりで生まれてきて、ひとりで死んでゆくのだ。",
+      "author": "田山花袋",
+      "genre": "文学",
+      "source": "蒲団",
+      "year": "1907年",
+      "explanation": "自然主義文学の代表作で、人間存在の根源的な孤独を描いた。孤独は人間の避けられない本質であることを示す。"
+    },
+    {
+      "id": "loneliness_4",
+      "theme_id": "loneliness",
+      "text": "孤独は優れた精神の持ち主の運命である。",
+      "author": "アルトゥル・ショーペンハウアー",
+      "genre": "哲学",
+      "source": "幸福について",
+      "year": "1851年",
+      "explanation": "ショーペンハウアーは孤独を否定的に捉えず、深い思索のために必要な条件として肯定的に位置づけている。"
+    },
+    {
+      "id": "loneliness_5",
+      "theme_id": "loneliness",
+      "text": "天上天下唯我独尊。",
+      "author": "釈迦",
+      "genre": "仏教",
+      "source": "仏伝",
+      "year": "紀元前5世紀頃",
+      "explanation": "仏陀誕生時の言葉とされる。すべての存在がかけがえのない独自性を持つことを示し、孤独の中にある尊厳を教える。"
+    },
+    {
+      "id": "loneliness_6",
+      "theme_id": "loneliness",
+      "text": "人間は一本の葦にすぎない。自然のうちで最も弱いものである。だが、それは考える葦である。",
+      "author": "ブレーズ・パスカル",
+      "genre": "哲学",
+      "source": "パンセ",
+      "year": "1670年",
+      "explanation": "パスカルは人間の弱さと孤独を認めつつも、思考する能力に人間の尊厳を見出した。孤独の中でこそ思索が深まる。"
+    },
+    {
+      "id": "loneliness_7",
+      "theme_id": "loneliness",
+      "text": "独坐大雄峰。",
+      "author": "百丈懐海",
+      "genre": "仏教",
+      "source": "禅語録",
+      "year": "9世紀",
+      "explanation": "禅の言葉で、山のようにどっしりと一人座る姿を表す。孤独を恐れず、自己と向き合う禅の境地を示している。"
+    },
+    {
+      "id": "loneliness_8",
+      "theme_id": "loneliness",
+      "text": "月やあらぬ春や昔の春ならぬわが身ひとつはもとの身にして",
+      "author": "在原業平",
+      "genre": "日本の古典",
+      "source": "伊勢物語",
+      "year": "10世紀頃",
+      "explanation": "業平は変わりゆく世界の中で変わらぬ自己の孤独を詠んだ。時の流れの中での人間の孤独感を美しく表現している。"
+    },
+    {
+      "id": "loneliness_9",
+      "theme_id": "loneliness",
+      "text": "孤独な人間がよく笑う。",
+      "author": "太宰治",
+      "genre": "文学",
+      "source": "人間失格",
+      "year": "1948年",
+      "explanation": "太宰は孤独を抱えた人間が道化を演じる姿を描いた。孤独と社会的仮面の関係を鋭く洞察した言葉。"
+    },
+    {
+      "id": "loneliness_10",
+      "theme_id": "loneliness",
+      "text": "我思う、ゆえに我あり。",
+      "author": "ルネ・デカルト",
+      "genre": "哲学",
+      "source": "方法序説",
+      "year": "1637年",
+      "explanation": "デカルトは徹底的な懐疑の孤独の中で、思考する自己の存在を確信した。孤独な思索から真理に至る道を示している。"
+    },
+    {
+      "id": "people_pleasing_1",
+      "theme_id": "people_pleasing",
+      "text": "八方美人は誰の友でもない。",
+      "author": "アリストテレス",
+      "genre": "哲学",
+      "source": "ニコマコス倫理学",
+      "year": "紀元前4世紀",
+      "explanation": "アリストテレスは全員に好かれようとすることの虚しさを指摘。真の友情は誠実さから生まれることを説いている。"
+    },
+    {
+      "id": "people_pleasing_2",
+      "theme_id": "people_pleasing",
+      "text": "自分自身に誠実でないものは、決して他人に誠実でありえない。",
+      "author": "夏目漱石",
+      "genre": "文学",
+      "source": "こころ",
+      "year": "1914年",
+      "explanation": "漱石は自己欺瞞が他者との関係も歪めることを描いた。人に合わせる前に自分に正直であることの重要性を示す。"
+    },
+    {
+      "id": "people_pleasing_3",
+      "theme_id": "people_pleasing",
+      "text": "己を責めて人を責めるな。",
+      "author": "徳川家康",
+      "genre": "日本の古典",
+      "source": "東照宮御遺訓",
+      "year": "17世紀",
+      "explanation": "家康の遺訓は自己責任を説くが、同時に過度な自己犠牲への戒めともなる。バランスの取れた自他関係を示唆。"
+    },
+    {
+      "id": "people_pleasing_4",
+      "theme_id": "people_pleasing",
+      "text": "他人の期待に応えて生きることは、他人の人生を生きることである。",
+      "author": "アルフレッド・アドラー",
+      "genre": "心理学",
+      "source": "嫌われる勇気",
+      "year": "20世紀前半",
+      "explanation": "アドラーは課題の分離を説き、他者の期待に縛られることが自分の人生を失うことにつながると警告している。"
+    },
+    {
+      "id": "people_pleasing_5",
+      "theme_id": "people_pleasing",
+      "text": "大道廃れて仁義あり。",
+      "author": "老子",
+      "genre": "哲学",
+      "source": "道徳経",
+      "year": "紀元前6世紀頃",
+      "explanation": "老子は形式的な道徳や礼儀が自然な道から外れたものであることを示す。作為的な人への迎合を戒めている。"
+    },
+    {
+      "id": "people_pleasing_6",
+      "theme_id": "people_pleasing",
+      "text": "和して同ぜず。",
+      "author": "孔子",
+      "genre": "哲学",
+      "source": "論語",
+      "year": "紀元前5世紀頃",
+      "explanation": "孔子は調和を保ちながらも自分を見失わないことを説いた。人に合わせることと迎合することの違いを示す教え。"
+    },
+    {
+      "id": "people_pleasing_7",
+      "theme_id": "people_pleasing",
+      "text": "自灯明、法灯明。",
+      "author": "釈迦",
+      "genre": "仏教",
+      "source": "大般涅槃経",
+      "year": "紀元前5世紀頃",
+      "explanation": "仏陀は自分自身を拠り所とし、真理を拠り所とせよと説いた。他者への依存から離れ、自立することの大切さを教える。"
+    },
+    {
+      "id": "people_pleasing_8",
+      "theme_id": "people_pleasing",
+      "text": "人に認められなくても、あなたの価値は変わらない。",
+      "author": "カール・ロジャーズ",
+      "genre": "心理学",
+      "source": "クライエント中心療法",
+      "year": "1951年",
+      "explanation": "人間性心理学の創始者は、他者の承認に依存しない自己価値の確立を説いた。無条件の自己受容の重要性を示す。"
+    },
+    {
+      "id": "people_pleasing_9",
+      "theme_id": "people_pleasing",
+      "text": "世間体などというものは、この世の中でいちばん下らない考えである。",
+      "author": "福沢諭吉",
+      "genre": "哲学",
+      "source": "学問のすゝめ",
+      "year": "1872年",
+      "explanation": "福沢は世間の目を気にすることの愚かさを断じた。独立自尊の精神で、他者の評価に振り回されないことを説く。"
+    },
+    {
+      "id": "people_pleasing_10",
+      "theme_id": "people_pleasing",
+      "text": "人目を恥ぢて人目に従ふは人なり、人目を恥ぢて人目に従はぬも人なり。",
+      "author": "本居宣長",
+      "genre": "日本の古典",
+      "source": "玉勝間",
+      "year": "18世紀後半",
+      "explanation": "宣長は人目を意識することと、それに従うかどうかは別問題であることを示した。自分の判断で行動する主体性の重要性を説く。"
+    },
+    {
+      "id": "unforgiving_1",
+      "theme_id": "unforgiving",
+      "text": "許すことは、囚人を解放することである。そしてその囚人が自分であったと気づくことである。",
+      "author": "ルイス・B・スメデス",
+      "genre": "心理学",
+      "source": "Forgive and Forget",
+      "year": "1984年",
+      "explanation": "許せない感情に囚われているのは相手ではなく自分自身であることを示し、許しが自己解放につながることを教えている。"
+    },
+    {
+      "id": "unforgiving_2",
+      "theme_id": "unforgiving",
+      "text": "怨みに報いるに徳を以てす。",
+      "author": "老子",
+      "genre": "哲学",
+      "source": "道徳経",
+      "year": "紀元前6世紀",
+      "explanation": "恨みや許せない気持ちに対して、憎しみではなく徳をもって応じることで、負の連鎖を断ち切る東洋的知恵を説く。"
+    },
+    {
+      "id": "unforgiving_3",
+      "theme_id": "unforgiving",
+      "text": "怨みは怨みによって鎮まらず、怨みを捨ててこそ鎮まる。これは永遠の真理である。",
+      "author": "釈迦",
+      "genre": "仏教",
+      "source": "法句経（ダンマパダ）",
+      "year": "紀元前5世紀",
+      "explanation": "許せない気持ちを抱き続けることは苦しみを増すだけであり、手放すことでのみ心の平安が得られると説く。"
+    },
+    {
+      "id": "unforgiving_4",
+      "theme_id": "unforgiving",
+      "text": "復讐は野蛮な正義の一種である。人の本性がこれに傾くほど、法律はこれを除くべきである。",
+      "author": "フランシス・ベーコン",
+      "genre": "哲学",
+      "source": "随想集",
+      "year": "1625年",
+      "explanation": "許せない感情から復讐へ向かう人間の本性を認めつつ、それを超越する理性と秩序の重要性を説いている。"
+    },
+    {
+      "id": "unforgiving_5",
+      "theme_id": "unforgiving",
+      "text": "人を憎んでいる暇はない。わしにはそんな時間はない。",
+      "author": "黒澤明",
+      "genre": "文学",
+      "source": "生きる",
+      "year": "1952年",
+      "explanation": "限られた人生の時間の中で、誰かを許せないことに費やすエネルギーの虚しさを気づかせてくれる言葉。"
+    },
+    {
+      "id": "unforgiving_6",
+      "theme_id": "unforgiving",
+      "text": "うらみわび　ほさぬ袖だに　あるものを　恋にくちなむ　名こそ惜しけれ",
+      "author": "相模",
+      "genre": "日本の古典",
+      "source": "百人一首",
+      "year": "11世紀",
+      "explanation": "恨みや許せない感情で涙に暮れる苦しみを詠み、その感情に囚われることの辛さを古典的に表現している。"
+    },
+    {
+      "id": "unforgiving_7",
+      "theme_id": "unforgiving",
+      "text": "他者を許すことは、自分自身に平和を与えることである。",
+      "author": "マハトマ・ガンジー",
+      "genre": "哲学",
+      "source": "ガンジー語録",
+      "year": "20世紀前半",
+      "explanation": "許しは相手のためではなく自分の心の平和のためであることを示し、許せない苦しみからの解放を説く。"
+    },
+    {
+      "id": "unforgiving_8",
+      "theme_id": "unforgiving",
+      "text": "あなたを傷つけた人を許しなさい。そうすれば、あなたは自由になれる。",
+      "author": "カール・ユング",
+      "genre": "心理学",
+      "source": "ユング著作集",
+      "year": "20世紀",
+      "explanation": "許せない感情が無意識に影響を与え続けることを分析心理学の観点から指摘し、許しによる心理的解放を説く。"
+    },
+    {
+      "id": "unforgiving_9",
+      "theme_id": "unforgiving",
+      "text": "人の過ちを許すは己の徳を積むなり。",
+      "author": "空海",
+      "genre": "仏教",
+      "source": "性霊集",
+      "year": "9世紀",
+      "explanation": "他者を許すことが自らの精神的成長につながるという仏教的観点から、許せない心を乗り越える道を示す。"
+    },
+    {
+      "id": "unforgiving_10",
+      "theme_id": "unforgiving",
+      "text": "弱者は決して許すことができない。許すということは強者の態度である。",
+      "author": "マハトマ・ガンジー",
+      "genre": "哲学",
+      "source": "非暴力の精神",
+      "year": "1931年",
+      "explanation": "許すことは弱さではなく精神的な強さの証であることを示し、許せない自分を責める必要はないと教えている。"
+    },
+    {
+      "id": "jealousy_1",
+      "theme_id": "jealousy",
+      "text": "嫉妬は千の目を持っているが、一つも正しくものを見ない。",
+      "author": "ユダヤのことわざ",
+      "genre": "哲学",
+      "source": "タルムード",
+      "year": "古代",
+      "explanation": "嫉妬に囚われると現実を歪めて見てしまうことを警告し、その感情の危険性を端的に表現している。"
+    },
+    {
+      "id": "jealousy_2",
+      "theme_id": "jealousy",
+      "text": "嫉妬とは、自分が持っていないものを他人が持っていることへの怒りである。",
+      "author": "アリストテレス",
+      "genre": "哲学",
+      "source": "弁論術",
+      "year": "紀元前4世紀",
+      "explanation": "嫉妬の本質を欠乏感と他者比較から生まれる感情として分析し、その心理メカニズムを明らかにしている。"
+    },
+    {
+      "id": "jealousy_3",
+      "theme_id": "jealousy",
+      "text": "嫉妬は魂の腐敗である。",
+      "author": "ソクラテス",
+      "genre": "哲学",
+      "source": "プラトン対話篇",
+      "year": "紀元前5世紀",
+      "explanation": "嫉妬が人間の精神を内側から蝕んでいくことを厳しく指摘し、その克服の必要性を説いている。"
+    },
+    {
+      "id": "jealousy_4",
+      "theme_id": "jealousy",
+      "text": "人を羨むことなかれ。羨む心は自らを苦しめるのみ。",
+      "author": "親鸞",
+      "genre": "仏教",
+      "source": "歎異抄",
+      "year": "13世紀",
+      "explanation": "嫉妬は他者ではなく自分自身を傷つけるものであることを仏教的観点から説き、執着を手放すことを勧める。"
+    },
+    {
+      "id": "jealousy_5",
+      "theme_id": "jealousy",
+      "text": "嫉妬は恋の姉妹である。悪魔が天使の兄弟であるように。",
+      "author": "スタンダール",
+      "genre": "文学",
+      "source": "恋愛論",
+      "year": "1822年",
+      "explanation": "愛情と嫉妬が表裏一体の感情であることを示し、人間の複雑な心理を文学的に表現している。"
+    },
+    {
+      "id": "jealousy_6",
+      "theme_id": "jealousy",
+      "text": "人の世を作ったものは神でもなければ鬼でもない。やはり向う三軒両隣にちらちらするただの人である。",
+      "author": "夏目漱石",
+      "genre": "文学",
+      "source": "草枕",
+      "year": "1906年",
+      "explanation": "他者との比較や嫉妬の源泉が身近な人間関係にあることを洞察し、人間社会の本質を描いている。"
+    },
+    {
+      "id": "jealousy_7",
+      "theme_id": "jealousy",
+      "text": "すべての罪のなかで、嫉妬のみが己にいかなる快楽も与えない。",
+      "author": "フランシス・ベーコン",
+      "genre": "哲学",
+      "source": "随想集",
+      "year": "1625年",
+      "explanation": "嫉妬は犯しても何の満足も得られない感情であることを指摘し、その虚しさを説いている。"
+    },
+    {
+      "id": "jealousy_8",
+      "theme_id": "jealousy",
+      "text": "花に嵐のたとえもあるぞ。さよならだけが人生だ。",
+      "author": "井伏鱒二",
+      "genre": "詩",
+      "source": "厄除け詩集",
+      "year": "1937年",
+      "explanation": "他者の幸福への嫉妬を超えて、人生の無常を受け入れることで心の平安を得る道を示唆している。"
+    },
+    {
+      "id": "jealousy_9",
+      "theme_id": "jealousy",
+      "text": "比較は喜びを殺す泥棒である。",
+      "author": "セオドア・ルーズベルト",
+      "genre": "哲学",
+      "source": "演説集",
+      "year": "20世紀初頭",
+      "explanation": "他者と比較することで嫉妬が生まれ、自分の幸福を見失ってしまうことを端的に表現している。"
+    },
+    {
+      "id": "jealousy_10",
+      "theme_id": "jealousy",
+      "text": "月やあらぬ　春や昔の　春ならぬ　わが身ひとつは　もとの身にして",
+      "author": "在原業平",
+      "genre": "日本の古典",
+      "source": "伊勢物語・古今和歌集",
+      "year": "9世紀",
+      "explanation": "変わってしまった状況への切なさを詠み、他者への嫉妬ではなく自分自身と向き合うことの大切さを示す。"
+    },
+    {
+      "id": "relationship_reset_1",
+      "theme_id": "relationship_reset",
+      "text": "古い友人と離れることを恐れるな。新しい友人がやってくる。",
+      "author": "孔子",
+      "genre": "哲学",
+      "source": "論語",
+      "year": "紀元前5世紀",
+      "explanation": "人間関係の変化は自然なことであり、別れを恐れず新しい出会いを受け入れることの大切さを説く。"
+    },
+    {
+      "id": "relationship_reset_2",
+      "theme_id": "relationship_reset",
+      "text": "孤独の中でのみ、自分自身を見つけることができる。",
+      "author": "パウル・ティリッヒ",
+      "genre": "哲学",
+      "source": "存在する勇気",
+      "year": "1952年",
+      "explanation": "人間関係をリセットして孤独になることは、自己を見つめ直し真の自分を発見する機会となりうることを示す。"
+    },
+    {
+      "id": "relationship_reset_3",
+      "theme_id": "relationship_reset",
+      "text": "行く川の流れは絶えずして、しかももとの水にあらず。",
+      "author": "鴨長明",
+      "genre": "日本の古典",
+      "source": "方丈記",
+      "year": "1212年",
+      "explanation": "すべては変化するものであり、人間関係もまた同じく移ろうものであることを無常観で表現している。"
+    },
+    {
+      "id": "relationship_reset_4",
+      "theme_id": "relationship_reset",
+      "text": "一期一会",
+      "author": "井伊直弼",
+      "genre": "日本の古典",
+      "source": "茶湯一会集",
+      "year": "19世紀",
+      "explanation": "すべての出会いは一度きりのものであることを認識し、別れと出会いを大切にする心構えを説いている。"
+    },
+    {
+      "id": "relationship_reset_5",
+      "theme_id": "relationship_reset",
+      "text": "執着を捨てれば、心は自由になる。",
+      "author": "釈迦",
+      "genre": "仏教",
+      "source": "スッタニパータ",
+      "year": "紀元前5世紀",
+      "explanation": "人間関係への執着が苦しみを生むことを示し、手放すことで得られる心の自由を説いている。"
+    },
+    {
+      "id": "relationship_reset_6",
+      "theme_id": "relationship_reset",
+      "text": "真の自己とは、他者との関係の中で生まれるが、孤独の中で磨かれる。",
+      "author": "カール・ユング",
+      "genre": "心理学",
+      "source": "自我と無意識",
+      "year": "1928年",
+      "explanation": "人間関係のリセットは自己発見と成長のプロセスであり、孤独な時間が必要であることを心理学的に説く。"
+    },
+    {
+      "id": "relationship_reset_7",
+      "theme_id": "relationship_reset",
+      "text": "出会いと別れを繰り返し、人は強くなっていく。",
+      "author": "ヘルマン・ヘッセ",
+      "genre": "文学",
+      "source": "シッダールタ",
+      "year": "1922年",
+      "explanation": "人間関係の終わりと始まりを人生の成長過程として捉え、リセットを前向きに受け止める視点を提供する。"
+    },
+    {
+      "id": "relationship_reset_8",
+      "theme_id": "relationship_reset",
+      "text": "旅に病んで　夢は枯野を　かけ廻る",
+      "author": "松尾芭蕉",
+      "genre": "詩",
+      "source": "芭蕉句集",
+      "year": "1694年",
+      "explanation": "日常を離れ旅に出ることで新たな自分と出会うことを詠み、人間関係のリセットと再出発を暗示している。"
+    },
+    {
+      "id": "relationship_reset_9",
+      "theme_id": "relationship_reset",
+      "text": "変化とは人生の法則である。過去と現在しか見ない者は、未来を見失う。",
+      "author": "ジョン・F・ケネディ",
+      "genre": "哲学",
+      "source": "演説集",
+      "year": "1963年",
+      "explanation": "人間関係のリセットを変化の一部として捉え、過去に囚われず未来に向かう勇気を与えてくれる。"
+    },
+    {
+      "id": "relationship_reset_10",
+      "theme_id": "relationship_reset",
+      "text": "君子の交わりは淡きこと水の如し。小人の交わりは甘きこと醴の如し。",
+      "author": "荘子",
+      "genre": "哲学",
+      "source": "荘子",
+      "year": "紀元前4世紀",
+      "explanation": "深すぎる人間関係が苦しみを生むこともあり、淡い付き合いの中にこそ真の関係があることを示唆している。"
+    },
+    {
+      "id": "cant_be_honest_1",
+      "theme_id": "cant_be_honest",
+      "text": "人間の本性は、仮面をかぶることに慣れすぎて、仮面なしでは生きられなくなる。",
+      "author": "フリードリヒ・ニーチェ",
+      "genre": "哲学",
+      "source": "善悪の彼岸",
+      "year": "1886年",
+      "explanation": "社会の中で本音を隠し続けることで、やがて仮面が本体となり、素顔を見せることへの恐怖が生まれることを示している。"
+    },
+    {
+      "id": "cant_be_honest_2",
+      "theme_id": "cant_be_honest",
+      "text": "言いたいことが言えないのは、言葉がないからではない。聞いてくれる人がいないからだ。",
+      "author": "カール・ロジャーズ",
+      "genre": "心理学",
+      "source": "クライアント中心療法",
+      "year": "1951年",
+      "explanation": "本音を言えない原因は自分だけでなく、受容してくれる他者の不在にもあることを心理学的に指摘している。"
+    },
+    {
+      "id": "cant_be_honest_3",
+      "theme_id": "cant_be_honest",
+      "text": "思ひつつ寝ればや人の見えつらむ夢と知りせば覚めざらましを",
+      "author": "小野小町",
+      "genre": "日本の古典",
+      "source": "古今和歌集",
+      "year": "9世紀",
+      "explanation": "現実では伝えられない想いを夢の中でしか表現できない切なさを詠み、本音を隠す苦しみを表している。"
+    },
+    {
+      "id": "cant_be_honest_4",
+      "theme_id": "cant_be_honest",
+      "text": "巧言令色、鮮し仁。",
+      "author": "孔子",
+      "genre": "哲学",
+      "source": "論語",
+      "year": "紀元前5世紀",
+      "explanation": "表面的な言葉で本心を隠す者には真の徳がないと説き、本音で語ることの大切さを逆説的に示している。"
+    },
+    {
+      "id": "cant_be_honest_5",
+      "theme_id": "cant_be_honest",
+      "text": "人間は自分の心を偽ることに長けているが、その代償として魂の平和を失う。",
+      "author": "カール・グスタフ・ユング",
+      "genre": "心理学",
+      "source": "人間と象徴",
+      "year": "1964年",
+      "explanation": "本音を抑圧し続けることが心理的な不調和を生み、内面の平穏を乱すことを深層心理学から説明している。"
+    },
+    {
+      "id": "cant_be_honest_6",
+      "theme_id": "cant_be_honest",
+      "text": "口を開けば嘘になり、黙っていれば心が腐る。",
+      "author": "魯迅",
+      "genre": "文学",
+      "source": "野草",
+      "year": "1927年",
+      "explanation": "話しても黙っても苦しいという本音を言えない状況の二重苦を鋭く表現している。"
+    },
+    {
+      "id": "cant_be_honest_7",
+      "theme_id": "cant_be_honest",
+      "text": "恥の多い生涯を送って来ました。自分には、人間の生活というものが、見当つかないのです。",
+      "author": "太宰治",
+      "genre": "文学",
+      "source": "人間失格",
+      "year": "1948年",
+      "explanation": "他者に本当の自分を見せられず、道化を演じ続けた主人公の告白は、本音を隠す苦悩の極致を描いている。"
+    },
+    {
+      "id": "cant_be_honest_8",
+      "theme_id": "cant_be_honest",
+      "text": "沈黙は言葉よりも雄弁であることがある。しかし、それは必ずしも心地よいものではない。",
+      "author": "ラビンドラナート・タゴール",
+      "genre": "詩",
+      "source": "ギーターンジャリ",
+      "year": "1910年",
+      "explanation": "言葉にできない想いを沈黙に託すことの重みと、同時にその苦しさを詩的に表現している。"
+    },
+    {
+      "id": "cant_be_honest_9",
+      "theme_id": "cant_be_honest",
+      "text": "妄語を離れ、真実を語れ。",
+      "author": "釈迦",
+      "genre": "仏教",
+      "source": "八正道（正語）",
+      "year": "紀元前5世紀",
+      "explanation": "嘘偽りを離れて真実を語ることが正しい道であると説き、本音で生きることの重要性を示している。"
+    },
+    {
+      "id": "cant_be_honest_10",
+      "theme_id": "cant_be_honest",
+      "text": "世の中にある人、ことわざ繁きものなれば、心に思ふことを、そのままに言ひ出でぬこともあるべし。",
+      "author": "紀貫之",
+      "genre": "日本の古典",
+      "source": "土佐日記",
+      "year": "935年頃",
+      "explanation": "世間体やしきたりにより心の内をそのまま言葉にできない人の世の常を平安時代から指摘している。"
+    },
+    {
+      "id": "identity_lost_1",
+      "theme_id": "identity_lost",
+      "text": "汝自身を知れ。",
+      "author": "ソクラテス",
+      "genre": "哲学",
+      "source": "デルポイの神託",
+      "year": "紀元前5世紀",
+      "explanation": "自己認識こそが哲学の出発点であり、自分が何者かわからない状態からの探求を促す根本的な問いかけである。"
+    },
+    {
+      "id": "identity_lost_2",
+      "theme_id": "identity_lost",
+      "text": "私とは何か。私は考える、ゆえに私はある。",
+      "author": "ルネ・デカルト",
+      "genre": "哲学",
+      "source": "方法序説",
+      "year": "1637年",
+      "explanation": "すべてを疑った末に残る「考える自分」の存在を確認し、自己の核心に迫ろうとした思索である。"
+    },
+    {
+      "id": "identity_lost_3",
+      "theme_id": "identity_lost",
+      "text": "実存は本質に先立つ。",
+      "author": "ジャン＝ポール・サルトル",
+      "genre": "哲学",
+      "source": "実存主義とは何か",
+      "year": "1946年",
+      "explanation": "人間は最初から決まった本質を持たず、生きながら自分を創っていく存在であることを説いている。"
+    },
+    {
+      "id": "identity_lost_4",
+      "theme_id": "identity_lost",
+      "text": "諸法無我。すべての存在には固定した自我はない。",
+      "author": "釈迦",
+      "genre": "仏教",
+      "source": "三法印",
+      "year": "紀元前5世紀",
+      "explanation": "固定した「自分」という実体はそもそも存在しないという仏教の根本教理であり、執着を離れる道を示す。"
+    },
+    {
+      "id": "identity_lost_5",
+      "theme_id": "identity_lost",
+      "text": "本来無一物、何れの処にか塵埃を惹かん。",
+      "author": "慧能",
+      "genre": "仏教",
+      "source": "六祖壇経",
+      "year": "7世紀",
+      "explanation": "本来、自己という実体は空であるという禅の悟りを示し、自己への執着から解放される視点を与えている。"
+    },
+    {
+      "id": "identity_lost_6",
+      "theme_id": "identity_lost",
+      "text": "自分の中にもう一人の自分がいて、その自分が本当の自分なのか、わからなくなることがある。",
+      "author": "夏目漱石",
+      "genre": "文学",
+      "source": "こころ",
+      "year": "1914年",
+      "explanation": "内面の分裂と自己の不確かさを描き、近代人のアイデンティティの揺らぎを文学的に表現している。"
+    },
+    {
+      "id": "identity_lost_7",
+      "theme_id": "identity_lost",
+      "text": "人生の半ばにして、我は暗き森の中に迷い込んでいた。",
+      "author": "ダンテ・アリギエーリ",
+      "genre": "文学",
+      "source": "神曲",
+      "year": "1320年頃",
+      "explanation": "人生の途中で道を見失い、自分が何者でどこへ向かうのかわからなくなる普遍的な経験を象徴している。"
+    },
+    {
+      "id": "identity_lost_8",
+      "theme_id": "identity_lost",
+      "text": "アイデンティティとは、自分が自分であるという連続性と一貫性の感覚である。",
+      "author": "エリク・エリクソン",
+      "genre": "心理学",
+      "source": "アイデンティティ：青年と危機",
+      "year": "1968年",
+      "explanation": "自己同一性の概念を心理学的に定義し、それが揺らぐ時の混乱を理解する枠組みを提供している。"
+    },
+    {
+      "id": "identity_lost_9",
+      "theme_id": "identity_lost",
+      "text": "荘周、夢に胡蝶となる。胡蝶が荘周か、荘周が胡蝶か。",
+      "author": "荘子",
+      "genre": "哲学",
+      "source": "荘子 斉物論篇",
+      "year": "紀元前4世紀",
+      "explanation": "夢と現実、自己と他者の境界を曖昧にし、固定した自己という概念への問いを投げかけている。"
+    },
+    {
+      "id": "identity_lost_10",
+      "theme_id": "identity_lost",
+      "text": "私は私自身の中の見知らぬ者である。",
+      "author": "フェルナンド・ペソア",
+      "genre": "詩",
+      "source": "不安の書",
+      "year": "1982年（遺稿）",
+      "explanation": "自分自身が最も理解しがたい存在であるという感覚を詩的に表現し、自己疎外の感覚を描いている。"
+    },
+    {
+      "id": "no_confidence_1",
+      "theme_id": "no_confidence",
+      "text": "自分を信じていないとき、私たちは他人の意見に過度に依存する。",
+      "author": "アルフレッド・アドラー",
+      "genre": "心理学",
+      "source": "人生の意味の心理学",
+      "year": "1931年",
+      "explanation": "自信のなさが他者への過度な依存を生み、自律的な判断を妨げるメカニズムを心理学的に説明している。"
+    },
+    {
+      "id": "no_confidence_2",
+      "theme_id": "no_confidence",
+      "text": "自信とは、常に勝つことではない。倒れても何度でも立ち上がれると信じることだ。",
+      "author": "マヤ・アンジェロウ",
+      "genre": "詩",
+      "source": "私は知っている、なぜ籠の鳥は歌うのか",
+      "year": "1969年",
+      "explanation": "自信を完璧さではなく回復力として再定義し、失敗を恐れずに進む勇気の源泉を示している。"
+    },
+    {
+      "id": "no_confidence_3",
+      "theme_id": "no_confidence",
+      "text": "千里の道も一歩から。",
+      "author": "老子",
+      "genre": "哲学",
+      "source": "道徳経",
+      "year": "紀元前6世紀頃",
+      "explanation": "大きな目標に圧倒されず、小さな一歩から始める勇気を説き、自信を育てる道を示している。"
+    },
+    {
+      "id": "no_confidence_4",
+      "theme_id": "no_confidence",
+      "text": "天は自ら助くる者を助く。",
+      "author": "サミュエル・スマイルズ",
+      "genre": "文学",
+      "source": "自助論",
+      "year": "1859年",
+      "explanation": "自分で行動を起こす者に道は開けるという教えは、まず自分を信じて動くことの大切さを伝えている。"
+    },
+    {
+      "id": "no_confidence_5",
+      "theme_id": "no_confidence",
+      "text": "人は何度も失敗し、何度も挫折する。しかし、立ち上がり続ける限り、それは敗北ではない。",
+      "author": "吉田松陰",
+      "genre": "日本の古典",
+      "source": "講孟余話",
+      "year": "1856年",
+      "explanation": "失敗しても諦めない精神こそが真の強さであり、自信は行動の中で育つことを説いている。"
+    },
+    {
+      "id": "no_confidence_6",
+      "theme_id": "no_confidence",
+      "text": "自分自身を卑下することは、他人を軽蔑することと同じくらい罪深い。",
+      "author": "ラビンドラナート・タゴール",
+      "genre": "詩",
+      "source": "迷い鳥",
+      "year": "1916年",
+      "explanation": "過度な謙遜や自己否定は美徳ではなく、自分という存在への敬意を欠くことだと諭している。"
+    },
+    {
+      "id": "no_confidence_7",
+      "theme_id": "no_confidence",
+      "text": "人を信ずることは、もちろん、遥かに人を疑うことよりも高尚である。",
+      "author": "宮沢賢治",
+      "genre": "文学",
+      "source": "銀河鉄 道の夜",
+      "year": "1934年（遺稿）",
+      "explanation": "他者を信じることの崇高さは、まず自分を信じることから始まるという精神的な姿勢を示している。"
+    },
+    {
+      "id": "no_confidence_8",
+      "theme_id": "no_confidence",
+      "text": "自己を灯明とし、自己を依処とせよ。他を依処とするなかれ。",
+      "author": "釈迦",
+      "genre": "仏教",
+      "source": "大般涅槃経",
+      "year": "紀元前5世紀",
+      "explanation": "外部に頼らず自分自身を拠り所とせよという教えは、真の自信の源が内にあることを示している。"
+    },
+    {
+      "id": "no_confidence_9",
+      "theme_id": "no_confidence",
+      "text": "勇気とは、恐れがないことではない。恐れを感じながらも、なお前に進むことだ。",
+      "author": "アリストテレス",
+      "genre": "哲学",
+      "source": "ニコマコス倫理学",
+      "year": "紀元前4世紀",
+      "explanation": "自信がなくても行動できることが真の勇気であり、感情と行動は別であることを古代から説いている。"
+    },
+    {
+      "id": "no_confidence_10",
+      "theme_id": "no_confidence",
+      "text": "およそ道というものは、難しそうに見えても、男が身を立て名を上げようと思えば、できないことはない。",
+      "author": "世阿弥",
+      "genre": "日本の古典",
+      "source": "風姿花伝",
+      "year": "1400年頃",
+      "explanation": "どんな道も志を持てば歩めるという教えは、能の世界から自信を持つことの大切さを伝えている。"
+    },
+    {
+      "id": "no_purpose_1",
+      "theme_id": "no_purpose",
+      "text": "人生の意味は、あなたの才能を見つけること。人生の目的は、それを人に与えること。",
+      "author": "パブロ・ピカソ",
+      "genre": "哲学",
+      "source": "ピカソの言葉",
+      "year": "20世紀",
+      "explanation": "目的は最初から明確である必要はなく、自分の才能を探す過程そのものが人生であり、見つけた後に他者と分かち合うことで意味が生まれると説く。"
+    },
+    {
+      "id": "no_purpose_2",
+      "theme_id": "no_purpose",
+      "text": "道は近きにあり、然るにこれを遠きに求む。",
+      "author": "孟子",
+      "genre": "哲学",
+      "source": "孟子",
+      "year": "紀元前4世紀",
+      "explanation": "やりたいことは遠くにあるのではなく、実は身近な日常の中にある。外に求めすぎず、足元を見つめ直すことの大切さを教えている。"
+    },
+    {
+      "id": "no_purpose_3",
+      "theme_id": "no_purpose",
+      "text": "青春とは人生のある期間ではなく、心の持ち方を言う。",
+      "author": "サミュエル・ウルマン",
+      "genre": "詩",
+      "source": "青春",
+      "year": "1920年",
+      "explanation": "目的を見つける力は年齢に関係なく、好奇心と情熱を持ち続ける限り、いつでも新しい道を切り開けることを詩的に表現している。"
+    },
+    {
+      "id": "no_purpose_4",
+      "theme_id": "no_purpose",
+      "text": "私たちの人生は、私たちの心が決める。",
+      "author": "マルクス・アウレリウス",
+      "genre": "哲学",
+      "source": "自省録",
+      "year": "2世紀",
+      "explanation": "外的な状況ではなく、自分の心の持ち方が人生を形作る。目的がないと感じるのも心の状態であり、内面を整えることで道が見えてくる。"
+    },
+    {
+      "id": "no_purpose_5",
+      "theme_id": "no_purpose",
+      "text": "一切衆生悉有仏性。",
+      "author": "釈迦",
+      "genre": "仏教",
+      "source": "涅槃経",
+      "year": "紀元前5世紀頃",
+      "explanation": "すべての人に仏になる可能性が備わっているという教え。自分には何もないと感じても、内に秘めた可能性を信じることを促している。"
+    },
+    {
+      "id": "no_purpose_6",
+      "theme_id": "no_purpose",
+      "text": "人間は自分自身を作っていくものである。",
+      "author": "ジャン＝ポール・サルトル",
+      "genre": "哲学",
+      "source": "実存主義とは何か",
+      "year": "1946年",
+      "explanation": "人間には本質が先にあるのではなく、行動によって自己を創造していく。目的は発見するものではなく、自ら作り上げるものだと説く。"
+    },
+    {
+      "id": "no_purpose_7",
+      "theme_id": "no_purpose",
+      "text": "行く水に数かくよりもはかなきは思はぬ人を思ふなりけり",
+      "author": "紀貫之",
+      "genre": "日本の古典",
+      "source": "古今和歌集",
+      "year": "905年",
+      "explanation": "流れる水に数を書くようなはかなさを詠む。目的を求めて焦る心も同様であり、今この瞬間を大切にすることの意味を示唆する。"
+    },
+    {
+      "id": "no_purpose_8",
+      "theme_id": "no_purpose",
+      "text": "人生に意味を与えるのは、何を得るかではなく、何になるかである。",
+      "author": "カール・ユング",
+      "genre": "心理学",
+      "source": "ユング自伝",
+      "year": "1961年",
+      "explanation": "目的は外的な達成ではなく、自己実現の過程にある。何者かになろうとする旅そのものが、人生に深い意味を与えると教えている。"
+    },
+    {
+      "id": "no_purpose_9",
+      "theme_id": "no_purpose",
+      "text": "千里の道も一歩から。",
+      "author": "老子",
+      "genre": "哲学",
+      "source": "道徳経",
+      "year": "紀元前6世紀頃",
+      "explanation": "大きな目標が見えなくても、まず一歩を踏み出すことが大切。小さな行動の積み重ねが、やがて自分の道を形作っていく。"
+    },
+    {
+      "id": "no_purpose_10",
+      "theme_id": "no_purpose",
+      "text": "世の中にたえて桜のなかりせば春の心はのどけからまし",
+      "author": "在原業平",
+      "genre": "日本の古典",
+      "source": "伊勢物語",
+      "year": "9世紀",
+      "explanation": "桜があるからこそ心がざわつく。目的がないことへの焦りも同様で、その葛藤自体が生きている証であると気づかせてくれる歌。"
+    },
+    {
+      "id": "past_regret_1",
+      "theme_id": "past_regret",
+      "text": "過去を追うな。未来を願うな。過去はすでに捨てられた。未来はまだ来ない。",
+      "author": "釈迦",
+      "genre": "仏教",
+      "source": "中部経典",
+      "year": "紀元前5世紀頃",
+      "explanation": "過去への執着と未来への不安を手放し、今この瞬間に集中することの大切さを説く。後悔に囚われる心を解放する教え。"
+    },
+    {
+      "id": "past_regret_2",
+      "theme_id": "past_regret",
+      "text": "後悔は、安全だが無益な遊びである。",
+      "author": "アルフレッド・アドラー",
+      "genre": "心理学",
+      "source": "人生の意味の心理学",
+      "year": "1931年",
+      "explanation": "後悔することで現実から逃避し、行動しない言い訳にしてしまう。過去に留まることの非生産性を鋭く指摘している。"
+    },
+    {
+      "id": "past_regret_3",
+      "theme_id": "past_regret",
+      "text": "ゆく河の流れは絶えずして、しかももとの水にあらず。",
+      "author": "鴨長明",
+      "genre": "日本の古典",
+      "source": "方丈記",
+      "year": "1212年",
+      "explanation": "すべては常に変化し、同じ状態にとどまるものはない。過去の自分も今の自分も違う存在であり、執着を手放す視点を与える。"
+    },
+    {
+      "id": "past_regret_4",
+      "theme_id": "past_regret",
+      "text": "終わったことを悔やんでも、しょうがないじゃないか。目はどうして前についていると思う？前向きに進んでいくためだよ。",
+      "author": "藤子・F・不二雄",
+      "genre": "文学",
+      "source": "ドラえもん",
+      "year": "1979年",
+      "explanation": "シンプルだが深い言葉。人間の身体構造を例に、前を向いて生きることの自然さと大切さを子どもにもわかる形で伝えている。"
+    },
+    {
+      "id": "past_regret_5",
+      "theme_id": "past_regret",
+      "text": "過ちて改めざる、これを過ちという。",
+      "author": "孔子",
+      "genre": "哲学",
+      "source": "論語",
+      "year": "紀元前5世紀",
+      "explanation": "過ちを犯すこと自体は問題ではなく、それを認めて改めないことが本当の過ちである。後悔を成長の糧に変える姿勢を説く。"
+    },
+    {
+      "id": "past_regret_6",
+      "theme_id": "past_regret",
+      "text": "記憶は時間の牢獄である。そこから自由になるには、現在を完全に生きるしかない。",
+      "author": "エックハルト・トール",
+      "genre": "心理学",
+      "source": "さとりをひらくと人生はシンプルで楽になる",
+      "year": "1997年",
+      "explanation": "過去の記憶に囚われることは自らを牢獄に閉じ込めること。今この瞬間に意識を向けることで解放されると説いている。"
+    },
+    {
+      "id": "past_regret_7",
+      "theme_id": "past_regret",
+      "text": "人生を後ろ向きにしか理解できないのは本当だが、前向きにしか生きられないのもまた本当だ。",
+      "author": "セーレン・キェルケゴール",
+      "genre": "哲学",
+      "source": "日記",
+      "year": "1843年",
+      "explanation": "過去を振り返って理解することはできても、生きることは常に前に進むこと。後悔は理解の一部だが、生きる方向は前だけと教える。"
+    },
+    {
+      "id": "past_regret_8",
+      "theme_id": "past_regret",
+      "text": "月日は百代の過客にして、行きかふ年もまた旅人なり。",
+      "author": "松尾芭蕉",
+      "genre": "日本の古典",
+      "source": "おくのほそ道",
+      "year": "1689年",
+      "explanation": "時間は永遠の旅人のように過ぎ去っていく。過去に執着しても時は戻らず、今を旅するように生きることの大切さを詩的に表現。"
+    },
+    {
+      "id": "past_regret_9",
+      "theme_id": "past_regret",
+      "text": "すべて過ぎ去るものは、やがてなつかしくなる。",
+      "author": "アレクサンドル・プーシキン",
+      "genre": "詩",
+      "source": "もし生活が君を欺くとも",
+      "year": "1825年",
+      "explanation": "今は辛い過去もいつか懐かしい思い出に変わる。時間が癒しをもたらし、後悔も人生の一部として受け入れられるようになると慰める。"
+    },
+    {
+      "id": "past_regret_10",
+      "theme_id": "past_regret",
+      "text": "放てば手に満てり。",
+      "author": "道元",
+      "genre": "仏教",
+      "source": "正法眼蔵",
+      "year": "13世紀",
+      "explanation": "手放すことで初めて手に入るものがある。過去への執着を放すことで、新しいものを受け取る余地が生まれるという禅の教え。"
+    },
+    {
+      "id": "emotional_control_1",
+      "theme_id": "emotional_control",
+      "text": "怒りを抱くことは、毒を飲んで相手が死ぬのを待つようなものだ。",
+      "author": "釈迦",
+      "genre": "仏教",
+      "source": "仏教説話",
+      "year": "紀元前5世紀頃",
+      "explanation": "怒りは相手ではなく自分自身を傷つける。感情に支配されることの愚かさと、手放すことの重要性を鮮やかに示している。"
+    },
+    {
+      "id": "emotional_control_2",
+      "theme_id": "emotional_control",
+      "text": "汝の平和を乱すことができるのは、汝自身の思考のみである。",
+      "author": "マルクス・アウレリウス",
+      "genre": "哲学",
+      "source": "自省録",
+      "year": "2世紀",
+      "explanation": "感情の乱れは外部の出来事ではなく、自分の解釈によって生じる。思考をコントロールすることで感情も制御できると説く。"
+    },
+    {
+      "id": "emotional_control_3",
+      "theme_id": "emotional_control",
+      "text": "刺激と反応の間にはスペースがある。そのスペースに、反応を選ぶ力がある。",
+      "author": "ヴィクトール・フランクル",
+      "genre": "心理学",
+      "source": "夜と霧",
+      "year": "1946年",
+      "explanation": "出来事と感情的反応の間には選択の余地がある。その一瞬の隙間に気づくことで、衝動的な反応を避けられることを教えている。"
+    },
+    {
+      "id": "emotional_control_4",
+      "theme_id": "emotional_control",
+      "text": "静かなる水は深く流れる。",
+      "author": "ウィリアム・シェイクスピア",
+      "genre": "文学",
+      "source": "ヘンリー六世",
+      "year": "1591年",
+      "explanation": "深い感情を持つ人ほど表面は穏やかである。感情を抑圧するのではなく、深く受け止めながら静かに表現する姿勢を示す。"
+    },
+    {
+      "id": "emotional_control_5",
+      "theme_id": "emotional_control",
+      "text": "心頭滅却すれば火もまた涼し。",
+      "author": "快川紹喜",
+      "genre": "仏教",
+      "source": "禅語",
+      "year": "1582年",
+      "explanation": "心の持ち方次第で、どんな苦境も乗り越えられる。感情は心の作用であり、心を鎮めることで感情の炎も静まると説く。"
+    },
+    {
+      "id": "emotional_control_6",
+      "theme_id": "emotional_control",
+      "text": "感情は波のようなもの。止めることはできないが、どの波に乗るかは選べる。",
+      "author": "ジョン・カバットジン",
+      "genre": "心理学",
+      "source": "マインドフルネスストレス低減法",
+      "year": "1990年",
+      "explanation": "感情を無理に抑え込むのではなく、それを観察し、どう対応するかを選ぶことができる。マインドフルネスの核心を表現している。"
+    },
+    {
+      "id": "emotional_control_7",
+      "theme_id": "emotional_control",
+      "text": "大声を出して怒ることは、自分の愚かさを宣伝しているようなものだ。",
+      "author": "ソクラテス",
+      "genre": "哲学",
+      "source": "プラトンの対話篇より",
+      "year": "紀元前399年頃",
+      "explanation": "怒りを爆発させることは理性の敗北を意味する。感情を露わにすることの無益さを皮肉を込めて指摘している。"
+    },
+    {
+      "id": "emotional_control_8",
+      "theme_id": "emotional_control",
+      "text": "もののふの矢並つくろふ籠手の上に霰たばしる那須の篠原",
+      "author": "源実朝",
+      "genre": "日本の古典",
+      "source": "金槐和歌集",
+      "year": "13世紀",
+      "explanation": "霰が降りしきる中でも武士は冷静に矢を整える。外部の混乱の中でも内面の平静を保つ姿勢を武士道精神として詠んでいる。"
+    },
+    {
+      "id": "emotional_control_9",
+      "theme_id": "emotional_control",
+      "text": "知者は惑わず、仁者は憂えず、勇者は懼れず。",
+      "author": "孔子",
+      "genre": "哲学",
+      "source": "論語",
+      "year": "紀元前5世紀",
+      "explanation": "知恵、仁愛、勇気を備えた人は感情に振り回されない。感情のコントロールは徳の修養によって達成されることを示している。"
+    },
+    {
+      "id": "emotional_control_10",
+      "theme_id": "emotional_control",
+      "text": "柳に風。",
+      "author": "日本のことわざ",
+      "genre": "日本の古典",
+      "source": "日本の古諺",
+      "year": "江戸時代",
+      "explanation": "柳が風を受け流すように、感情的な攻撃や困難に対して柔軟に対応する。抵抗するのではなく、しなやかに受け流す知恵を表す。"
+    },
+    {
+      "id": "perfectionism_1",
+      "theme_id": "perfectionism",
+      "text": "完璧を目指すよりまず終わらせろ",
+      "author": "マーク・ザッカーバーグ",
+      "genre": "哲学",
+      "source": "Facebook社内標語",
+      "year": "2012年",
+      "explanation": "完璧主義による停滞を戒め、まず行動を完了させることの重要性を説く。完成させてから改善する姿勢が疲弊を防ぐ。"
+    },
+    {
+      "id": "perfectionism_2",
+      "theme_id": "perfectionism",
+      "text": "足るを知る者は富み、強めて行う者は志有り",
+      "author": "老子",
+      "genre": "哲学",
+      "source": "道徳経",
+      "year": "紀元前6世紀",
+      "explanation": "際限なく完璧を求めるのではなく、今あるもので満足することを知る者こそ真に豊かであると説く東洋の知恵。"
+    },
+    {
+      "id": "perfectionism_3",
+      "theme_id": "perfectionism",
+      "text": "月満つれば則ち虧く",
+      "author": "不詳",
+      "genre": "日本の古典",
+      "source": "徒然草",
+      "year": "14世紀",
+      "explanation": "満月はやがて欠けるように、完璧な状態は続かない。不完全さを受け入れる日本的美意識が疲れた心を癒す。"
+    },
+    {
+      "id": "perfectionism_4",
+      "theme_id": "perfectionism",
+      "text": "神経症的完璧主義は、自己価値を条件付きにする",
+      "author": "カレン・ホーナイ",
+      "genre": "心理学",
+      "source": "神経症と人間の成長",
+      "year": "1950年",
+      "explanation": "完璧でなければ価値がないという思い込みが神経症的疲労を生むと指摘。無条件の自己受容の必要性を説く。"
+    },
+    {
+      "id": "perfectionism_5",
+      "theme_id": "perfectionism",
+      "text": "中庸の徳たるや、それ至れるかな",
+      "author": "孔子",
+      "genre": "哲学",
+      "source": "論語",
+      "year": "紀元前5世紀",
+      "explanation": "極端を避け中庸を保つことが最高の徳。完璧を極端に追求せず、バランスを取ることの大切さを教える。"
+    },
+    {
+      "id": "perfectionism_6",
+      "theme_id": "perfectionism",
+      "text": "万物は流転する",
+      "author": "ヘラクレイトス",
+      "genre": "哲学",
+      "source": "断片集",
+      "year": "紀元前500年頃",
+      "explanation": "すべては変化し続けるため、固定された完璧など存在しない。変化を受け入れることで完璧主義から解放される。"
+    },
+    {
+      "id": "perfectionism_7",
+      "theme_id": "perfectionism",
+      "text": "あらゆる執着を捨てよ。執着こそ苦しみの根源である",
+      "author": "釈迦",
+      "genre": "仏教",
+      "source": "ダンマパダ（法句経）",
+      "year": "紀元前5世紀",
+      "explanation": "完璧への執着が苦しみを生む。執着を手放すことで心の平安が得られるという仏教の根本的教え。"
+    },
+    {
+      "id": "perfectionism_8",
+      "theme_id": "perfectionism",
+      "text": "私は完璧ではない。だが私の不完全さの中に私の人間性がある",
+      "author": "ヘルマン・ヘッセ",
+      "genre": "文学",
+      "source": "荒野のおおかみ",
+      "year": "1927年",
+      "explanation": "不完全さこそが人間らしさの証。完璧を求めて自分を否定するより、不完全な自己を受け入れる勇気を説く。"
+    },
+    {
+      "id": "perfectionism_9",
+      "theme_id": "perfectionism",
+      "text": "ひび割れから光が差し込む。そうやって光は入ってくるのだ",
+      "author": "レナード・コーエン",
+      "genre": "詩",
+      "source": "Anthem",
+      "year": "1992年",
+      "explanation": "傷や欠点こそが光を通す入り口になる。完璧でないことが新たな可能性を開くという詩的洞察。"
+    },
+    {
+      "id": "perfectionism_10",
+      "theme_id": "perfectionism",
+      "text": "春は曙。やうやう白くなりゆく山際、少し明かりて",
+      "author": "清少納言",
+      "genre": "日本の古典",
+      "source": "枕草子",
+      "year": "1001年頃",
+      "explanation": "完全な美ではなく、移ろいゆく瞬間の美しさを愛でる感性。「をかし」の美学は不完全さの中に価値を見出す。"
+    },
+    {
+      "id": "self_dislike_1",
+      "theme_id": "self_dislike",
+      "text": "汝自身を知れ",
+      "author": "ソクラテス",
+      "genre": "哲学",
+      "source": "デルポイ神殿の碑文",
+      "year": "紀元前5世紀",
+      "explanation": "自分を嫌う前にまず自分を深く知ることが必要。真の自己理解が自己受容への第一歩となる。"
+    },
+    {
+      "id": "self_dislike_2",
+      "theme_id": "self_dislike",
+      "text": "自分自身を愛することは、一生続くロマンスの始まりである",
+      "author": "オスカー・ワイルド",
+      "genre": "文学",
+      "source": "理想の夫",
+      "year": "1895年",
+      "explanation": "自分を愛することを恥じる必要はなく、むしろ人生で最も大切な関係性であると逆説的に説く。"
+    },
+    {
+      "id": "self_dislike_3",
+      "theme_id": "self_dislike",
+      "text": "一切衆生悉有仏性",
+      "author": "釈迦",
+      "genre": "仏教",
+      "source": "涅槃経",
+      "year": "紀元前5世紀",
+      "explanation": "すべての生きとし生けるものに仏になる本性が備わっている。自分にも尊い本質があることを思い出させる教え。"
+    },
+    {
+      "id": "self_dislike_4",
+      "theme_id": "self_dislike",
+      "text": "無条件の肯定的関心こそが人を成長させる",
+      "author": "カール・ロジャーズ",
+      "genre": "心理学",
+      "source": "クライエント中心療法",
+      "year": "1951年",
+      "explanation": "条件なしに自分を受け入れることが心理的成長の鍵。自己批判ではなく自己受容から変化が始まる。"
+    },
+    {
+      "id": "self_dislike_5",
+      "theme_id": "self_dislike",
+      "text": "世の中にたえて桜のなかりせば春の心はのどけからまし",
+      "author": "在原業平",
+      "genre": "詩",
+      "source": "古今和歌集",
+      "year": "905年頃",
+      "explanation": "美しいものへの執着が苦しみを生むように、理想の自分への執着が自己嫌悪を生む。あるがままを受け入れる心。"
+    },
+    {
+      "id": "self_dislike_6",
+      "theme_id": "self_dislike",
+      "text": "天上天下唯我独尊",
+      "author": "釈迦",
+      "genre": "仏教",
+      "source": "仏伝",
+      "year": "紀元前5世紀",
+      "explanation": "すべての存在は唯一無二であり尊い。自分を嫌う必要はなく、存在そのものに価値があるという宣言。"
+    },
+    {
+      "id": "self_dislike_7",
+      "theme_id": "self_dislike",
+      "text": "人は、自分が考えるような人間になる",
+      "author": "マハトマ・ガンジー",
+      "genre": "哲学",
+      "source": "ガンジー語録",
+      "year": "20世紀前半",
+      "explanation": "自分を嫌えば嫌うほどその通りになる。自分への見方を変えることで、実際の自分も変わりうるという洞察。"
+    },
+    {
+      "id": "self_dislike_8",
+      "theme_id": "self_dislike",
+      "text": "自分の中の影を認めることが、真の全体性への道である",
+      "author": "カール・ユング",
+      "genre": "心理学",
+      "source": "人間と象徴",
+      "year": "1964年",
+      "explanation": "嫌いな自分の側面も自己の一部として受け入れることで、人格の統合と心の平安が得られる。"
+    },
+    {
+      "id": "self_dislike_9",
+      "theme_id": "self_dislike",
+      "text": "道を歩いていると、道が私を歩かせてくれていることに気づく",
+      "author": "荘子",
+      "genre": "哲学",
+      "source": "荘子",
+      "year": "紀元前4世紀",
+      "explanation": "自分を主体として批判するのではなく、大きな流れの中の一部として捉える視点が自己嫌悪を和らげる。"
+    },
+    {
+      "id": "self_dislike_10",
+      "theme_id": "self_dislike",
+      "text": "己を責めて人を責むるな",
+      "author": "徳川家康",
+      "genre": "日本の古典",
+      "source": "東照宮遺訓",
+      "year": "17世紀",
+      "explanation": "自己反省は大切だが過度な自責は害となる。他者への寛容と同様に、自分への寛容も必要という教え。"
+    },
+    {
+      "id": "work_meaningless_1",
+      "theme_id": "work_meaningless",
+      "text": "人間は、自らの生の意味を見出そうとする存在である",
+      "author": "ヴィクトール・フランクル",
+      "genre": "心理学",
+      "source": "夜と霧",
+      "year": "1946年",
+      "explanation": "意味を求めることは人間の根源的欲求。仕事に意味がないと感じる時、意味を見出す力が自分にあることを思い出す。"
+    },
+    {
+      "id": "work_meaningless_2",
+      "theme_id": "work_meaningless",
+      "text": "石を運んでいるのではない。大聖堂を建てているのだ",
+      "author": "不詳",
+      "genre": "文学",
+      "source": "中世ヨーロッパの寓話",
+      "year": "中世",
+      "explanation": "同じ作業でも、より大きな目的との繋がりを意識することで意味が生まれる。視点の転換の重要性を説く。"
+    },
+    {
+      "id": "work_meaningless_3",
+      "theme_id": "work_meaningless",
+      "text": "為すべきことを為せ。結果は天に委ねよ",
+      "author": "クリシュナ",
+      "genre": "哲学",
+      "source": "バガヴァッド・ギーター",
+      "year": "紀元前5世紀頃",
+      "explanation": "結果への執着を手放し、行為そのものに集中する。成果が見えない時でも行為自体に意味を見出す教え。"
+    },
+    {
+      "id": "work_meaningless_4",
+      "theme_id": "work_meaningless",
+      "text": "一隅を照らす、これ則ち国宝なり",
+      "author": "最澄",
+      "genre": "仏教",
+      "source": "山家学生式",
+      "year": "818年",
+      "explanation": "自分の持ち場で精一杯光を放つことが社会への貢献となる。小さな役割にも大きな意味があることを説く。"
+    },
+    {
+      "id": "work_meaningless_5",
+      "theme_id": "work_meaningless",
+      "text": "人生において重要なのは生きることであって、生きた結果ではない",
+      "author": "ゲーテ",
+      "genre": "文学",
+      "source": "格言と反省",
+      "year": "19世紀初頭",
+      "explanation": "成果や結果ではなく、生きる過程そのものに価値がある。日々の仕事も過程として捉え直す視点を与える。"
+    },
+    {
+      "id": "work_meaningless_6",
+      "theme_id": "work_meaningless",
+      "text": "百工の技を成すは、本業をもっぱらにするに在り",
+      "author": "不詳",
+      "genre": "日本の古典",
+      "source": "職人気質（江戸の職人訓）",
+      "year": "江戸時代",
+      "explanation": "一つの仕事を極めることに専念する姿勢が技を成す。目の前の仕事に没頭することで意味が生まれる。"
+    },
+    {
+      "id": "work_meaningless_7",
+      "theme_id": "work_meaningless",
+      "text": "シーシュポスは幸福であったと想像しなければならない",
+      "author": "アルベール・カミュ",
+      "genre": "哲学",
+      "source": "シーシュポスの神話",
+      "year": "1942年",
+      "explanation": "無意味に見える反復作業の中にも、それに立ち向かう姿勢そのものに意味を見出せるという不条理の哲学。"
+    },
+    {
+      "id": "work_meaningless_8",
+      "theme_id": "work_meaningless",
+      "text": "平常心是道",
+      "author": "南泉普願",
+      "genre": "仏教",
+      "source": "無門関",
+      "year": "9世紀",
+      "explanation": "特別なことの中ではなく、日常の当たり前の中に道がある。普段の仕事の中にこそ悟りがあるという禅の教え。"
+    },
+    {
+      "id": "work_meaningless_9",
+      "theme_id": "work_meaningless",
+      "text": "働くことの意味は、他者との繋がりの中にこそある",
+      "author": "アルフレッド・アドラー",
+      "genre": "心理学",
+      "source": "人生の意味の心理学",
+      "year": "1931年",
+      "explanation": "仕事は共同体への貢献であり、他者との繋がりを実感することで意味が生まれるという共同体感覚の理論。"
+    },
+    {
+      "id": "work_meaningless_10",
+      "theme_id": "work_meaningless",
+      "text": "渓声すなわち是れ広長舌、山色あに清浄身に非ざらんや",
+      "author": "蘇軾",
+      "genre": "詩",
+      "source": "廬山の詩",
+      "year": "11世紀",
+      "explanation": "谷川の音も山の姿も仏の説法である。日常のあらゆる場面に深い意味が宿っているという東洋的自然観。"
+    },
+    {
+      "id": "career_change_1",
+      "theme_id": "career_change",
+      "text": "人生は何度でも選び直すことができる。大切なのは、自分自身に正直であることだ。",
+      "author": "セーレン・キェルケゴール",
+      "genre": "哲学",
+      "source": "あれか、これか",
+      "year": "1843年",
+      "explanation": "実存主義の父が説いた「選択」の重要性。転職という人生の岐路で、他者の期待ではなく自己の本質に従う決断の意義を示す。"
+    },
+    {
+      "id": "career_change_2",
+      "theme_id": "career_change",
+      "text": "川の流れは絶えずして、しかももとの水にあらず。淀みに浮かぶうたかたは、かつ消えかつ結びて、久しくとどまりたるためしなし。",
+      "author": "鴨長明",
+      "genre": "日本の古典",
+      "source": "方丈記",
+      "year": "1212年",
+      "explanation": "万物は常に変化するという無常観。現状に留まることへの執着を手放し、変化を自然の摂理として受け入れる視点を与える。"
+    },
+    {
+      "id": "career_change_3",
+      "theme_id": "career_change",
+      "text": "道が見えないのではない。あなたが道を選んでいないだけだ。",
+      "author": "老子",
+      "genre": "哲学",
+      "source": "道徳経",
+      "year": "紀元前6世紀頃",
+      "explanation": "道家思想における「道」の概念。迷いの本質は外部にあるのではなく、自らの決断を保留している内面にあることを示唆する。"
+    },
+    {
+      "id": "career_change_4",
+      "theme_id": "career_change",
+      "text": "二つの道が森の中で分かれていた。私は人の通らぬ道を選んだ。それが全てを変えた。",
+      "author": "ロバート・フロスト",
+      "genre": "詩",
+      "source": "選ばれざる道",
+      "year": "1916年",
+      "explanation": "人生の分岐点における選択を詠んだ詩。多数派と異なる道を選ぶ勇気が、人生を大きく変える可能性を示している。"
+    },
+    {
+      "id": "career_change_5",
+      "theme_id": "career_change",
+      "text": "執着を離れよ。執着こそが苦しみの根源である。",
+      "author": "釈迦",
+      "genre": "仏教",
+      "source": "四諦・八正道の教え",
+      "year": "紀元前5世紀頃",
+      "explanation": "仏教の根本教義。現在の職への執着や、変化への恐れから生じる苦しみを手放すことで、心の平安が得られることを説く。"
+    },
+    {
+      "id": "career_change_6",
+      "theme_id": "career_change",
+      "text": "人間は自由の刑に処せられている。",
+      "author": "ジャン＝ポール・サルトル",
+      "genre": "哲学",
+      "source": "実存主義とは何か",
+      "year": "1946年",
+      "explanation": "人間は常に選択を迫られ、その責任から逃れられないという実存主義の核心。転職の決断も自由と責任の表れである。"
+    },
+    {
+      "id": "career_change_7",
+      "theme_id": "career_change",
+      "text": "心理的な成長は、安全な場所を離れることから始まる。",
+      "author": "アブラハム・マズロー",
+      "genre": "心理学",
+      "source": "人間性の心理学",
+      "year": "1954年",
+      "explanation": "自己実現理論の提唱者による言葉。成長欲求を満たすには、安定した現状から踏み出す勇気が必要であることを示す。"
+    },
+    {
+      "id": "career_change_8",
+      "theme_id": "career_change",
+      "text": "世の中に絶えて桜のなかりせば春の心はのどけからまし。",
+      "author": "在原業平",
+      "genre": "日本の古典",
+      "source": "古今和歌集",
+      "year": "905年頃",
+      "explanation": "美しいものがあるからこそ心が乱れる逆説。選択肢があるからこそ迷うが、それは豊かさの証でもあることを示唆する。"
+    },
+    {
+      "id": "career_change_9",
+      "theme_id": "career_change",
+      "text": "君子は豹変す。",
+      "author": "不詳",
+      "genre": "哲学",
+      "source": "易経",
+      "year": "紀元前10世紀頃",
+      "explanation": "優れた人物は時に応じて態度や方針を改めるという中国古典の教え。変化を恐れず決断する姿勢の正当性を示す。"
+    },
+    {
+      "id": "career_change_10",
+      "theme_id": "career_change",
+      "text": "人生とは自転車のようなものだ。倒れないためには走り続けなければならない。",
+      "author": "アルベルト・アインシュタイン",
+      "genre": "哲学",
+      "source": "アインシュタイン書簡集",
+      "year": "1930年",
+      "explanation": "停滞は後退に等しいという洞察。現状維持への固執よりも、前進し続けることの重要性を物理学者らしい比喩で表現。"
+    },
+    {
+      "id": "effort_unrewarded_1",
+      "theme_id": "effort_unrewarded",
+      "text": "天の将に大任を是の人に降さんとするや、必ず先づ其の心志を苦しめ、其の筋骨を労せしむ。",
+      "author": "孟子",
+      "genre": "哲学",
+      "source": "孟子",
+      "year": "紀元前4世紀頃",
+      "explanation": "大きな使命を担う者には、まず試練が与えられるという儒教の教え。報われない努力は、より大きな役割への準備かもしれない。"
+    },
+    {
+      "id": "effort_unrewarded_2",
+      "theme_id": "effort_unrewarded",
+      "text": "神は乗り越えられる試練しか与えない。",
+      "author": "聖パウロ",
+      "genre": "哲学",
+      "source": "コリントの信徒への手紙",
+      "year": "1世紀頃",
+      "explanation": "キリスト教における試練の意味。困難は人間の能力の範囲内にあり、それを超える力が自分の中にあることを信じさせる。"
+    },
+    {
+      "id": "effort_unrewarded_3",
+      "theme_id": "effort_unrewarded",
+      "text": "結果を求めるな。ただ行為そのものに専念せよ。結果への執着を捨てよ。",
+      "author": "不詳",
+      "genre": "仏教",
+      "source": "バガヴァッド・ギーター",
+      "year": "紀元前2世紀頃",
+      "explanation": "インド哲学の精髄であるカルマ・ヨーガの教え。結果への執着を手放し、行為そのものに意義を見出す姿勢を説く。"
+    },
+    {
+      "id": "effort_unrewarded_4",
+      "theme_id": "effort_unrewarded",
+      "text": "種を蒔く人と刈り取る人が別であることもある。",
+      "author": "イエス・キリスト",
+      "genre": "哲学",
+      "source": "ヨハネによる福音書",
+      "year": "1世紀頃",
+      "explanation": "努力の成果は必ずしも自分が受け取るとは限らないが、その努力は無駄ではないという教え。長期的視野の重要性を示す。"
+    },
+    {
+      "id": "effort_unrewarded_5",
+      "theme_id": "effort_unrewarded",
+      "text": "人事を尽くして天命を待つ。",
+      "author": "胡寅",
+      "genre": "哲学",
+      "source": "読史管見",
+      "year": "12世紀",
+      "explanation": "できる限りの努力をした後は、結果を天に委ねるという中国の格言。コントロールできることとできないことを区別する知恵。"
+    },
+    {
+      "id": "effort_unrewarded_6",
+      "theme_id": "effort_unrewarded",
+      "text": "われわれが努力しても報われないと感じるとき、それは成長の過程にある証拠である。",
+      "author": "カール・ユング",
+      "genre": "心理学",
+      "source": "心理学と錬金術",
+      "year": "1944年",
+      "explanation": "分析心理学の視点から、苦悩や停滞は個性化（自己実現）のプロセスに必要な段階であることを示唆している。"
+    },
+    {
+      "id": "effort_unrewarded_7",
+      "theme_id": "effort_unrewarded",
+      "text": "おのれに勝つを、勝の上となす。",
+      "author": "不詳",
+      "genre": "仏教",
+      "source": "法句経",
+      "year": "紀元前3世紀頃",
+      "explanation": "他者に勝つことより自己に勝つことが最上の勝利であるという仏教の教え。外的な評価ではなく内的な成長に価値を置く。"
+    },
+    {
+      "id": "effort_unrewarded_8",
+      "theme_id": "effort_unrewarded",
+      "text": "シーシュポスは幸福であると想像しなければならない。",
+      "author": "アルベール・カミュ",
+      "genre": "哲学",
+      "source": "シーシュポスの神話",
+      "year": "1942年",
+      "explanation": "永遠に岩を押し上げる不条理な運命においても、その行為自体に意味を見出せるという実存的な洞察。"
+    },
+    {
+      "id": "effort_unrewarded_9",
+      "theme_id": "effort_unrewarded",
+      "text": "花は盛りに、月は隈なきをのみ、見るものかは。",
+      "author": "兼好法師",
+      "genre": "日本の古典",
+      "source": "徒然草",
+      "year": "1330年頃",
+      "explanation": "完璧な状態だけが美しいのではない。満たされない状態、報われない時期にも独自の価値と美があることを教える。"
+    },
+    {
+      "id": "effort_unrewarded_10",
+      "theme_id": "effort_unrewarded",
+      "text": "願はくは花の下にて春死なん その如月の望月のころ",
+      "author": "西行",
+      "genre": "詩",
+      "source": "山家集",
+      "year": "12世紀",
+      "explanation": "結果を求めず、自らの理想とする在り方を追求した歌人の姿勢。報酬ではなく、生きる姿勢そのものに意味を見出す。"
+    },
+    {
+      "id": "work_purpose_1",
+      "theme_id": "work_purpose",
+      "text": "人生の意味を問うのではなく、人生から問われていることに答えよ。",
+      "author": "ヴィクトール・フランクル",
+      "genre": "心理学",
+      "source": "夜と霧",
+      "year": "1946年",
+      "explanation": "強制収容所を生き延びた精神科医の洞察。意味は探すものではなく、目の前の状況への応答の中で生まれるものである。"
+    },
+    {
+      "id": "work_purpose_2",
+      "theme_id": "work_purpose",
+      "text": "働くとは、傍を楽にすることである。",
+      "author": "不詳",
+      "genre": "日本の古典",
+      "source": "日本の古諺",
+      "year": "江戸時代",
+      "explanation": "「はたらく」の語源的解釈。自己の利益だけでなく、周囲の人々の負担を軽くすることに仕事の本質的意義があるとする。"
+    },
+    {
+      "id": "work_purpose_3",
+      "theme_id": "work_purpose",
+      "text": "一日作さざれば一日食らわず。",
+      "author": "百丈懐海",
+      "genre": "仏教",
+      "source": "百丈清規",
+      "year": "8世紀",
+      "explanation": "禅僧が説いた労働と生活の一体性。働くことは修行であり、日々の生活そのものが悟りへの道であることを示す。"
+    },
+    {
+      "id": "work_purpose_4",
+      "theme_id": "work_purpose",
+      "text": "幸福は自己の力の完全な使用から生まれる。",
+      "author": "アリストテレス",
+      "genre": "哲学",
+      "source": "ニコマコス倫理学",
+      "year": "紀元前4世紀",
+      "explanation": "人間の本性は能力を発揮することにあるというギリシャ哲学の教え。仕事は自己の可能性を実現する場となりうる。"
+    },
+    {
+      "id": "work_purpose_5",
+      "theme_id": "work_purpose",
+      "text": "天職とは、自分の深い喜びと世界の深い飢えが交わるところにある。",
+      "author": "フレデリック・ビュークナー",
+      "genre": "哲学",
+      "source": "ウィッシュフル・シンキング",
+      "year": "1973年",
+      "explanation": "自己実現と社会貢献の交差点に仕事の意義を見出す視点。個人の情熱と社会のニーズが重なる場所を示している。"
+    },
+    {
+      "id": "work_purpose_6",
+      "theme_id": "work_purpose",
+      "text": "世のため人のためにならぬ仕事は、仕事とは申されぬ。",
+      "author": "二宮尊徳",
+      "genre": "哲学",
+      "source": "二宮翁夜話",
+      "year": "19世紀",
+      "explanation": "報徳思想における労働観。仕事の価値は自己利益ではなく、社会への貢献によって測られるという日本的勤労精神。"
+    },
+    {
+      "id": "work_purpose_7",
+      "theme_id": "work_purpose",
+      "text": "己れの欲せざる所は人に施すこと勿れ。",
+      "author": "孔子",
+      "genre": "哲学",
+      "source": "論語",
+      "year": "紀元前5世紀頃",
+      "explanation": "儒教の黄金律。仕事において他者への思いやりを持つことが、自らの行為に意味を与え、社会との調和を生むことを示す。"
+    },
+    {
+      "id": "work_purpose_8",
+      "theme_id": "work_purpose",
+      "text": "人は自分の行為に意味を見出すとき、最も生き生きとする。",
+      "author": "アルフレッド・アドラー",
+      "genre": "心理学",
+      "source": "人生の意味の心理学",
+      "year": "1931年",
+      "explanation": "個人心理学における共同体感覚の重要性。他者への貢献感が仕事への動機づけと精神的健康の源泉となることを説く。"
+    },
+    {
+      "id": "work_purpose_9",
+      "theme_id": "work_purpose",
+      "text": "石を運んでいるのではない。大聖堂を建てているのだ。",
+      "author": "不詳",
+      "genre": "文学",
+      "source": "中世ヨーロッパの逸話",
+      "year": "中世",
+      "explanation": "同じ作業でも、より大きな目的を意識することで意味が変わるという教訓。視野を広げることで仕事の価値を再発見できる。"
+    },
+    {
+      "id": "work_purpose_10",
+      "theme_id": "work_purpose",
+      "text": "業を究めて神に入る。",
+      "author": "世阿弥",
+      "genre": "日本の古典",
+      "source": "風姿花伝",
+      "year": "1400年頃",
+      "explanation": "能の大成者が説いた芸道精神。一つの仕事を極めることで、人間を超えた領域に到達できるという日本的職人精神の表現。"
+    },
+    {
+      "id": "dream_abandon_1",
+      "theme_id": "dream_abandon",
+      "text": "人生において最も大切なことは、自己を放棄せぬことである。夢を捨てるのではなく、夢の形を変えることもまた、生きる知恵である。",
+      "author": "西田幾多郎",
+      "genre": "哲学",
+      "source": "善の研究",
+      "year": "1911年",
+      "explanation": "夢を諦めることと自己を放棄することは異なる。夢の形を柔軟に変えながらも、自己の本質を保ち続けることの重要性を説いている。"
+    },
+    {
+      "id": "dream_abandon_2",
+      "theme_id": "dream_abandon",
+      "text": "執着を手放すことは、敗北ではない。それは新たな道への扉を開くことである。",
+      "author": "釈迦",
+      "genre": "仏教",
+      "source": "法句経",
+      "year": "紀元前5世紀頃",
+      "explanation": "仏教の教えでは執着が苦しみの原因とされる。夢への執着を手放すことで、新たな可能性が見えてくることを示唆している。"
+    },
+    {
+      "id": "dream_abandon_3",
+      "theme_id": "dream_abandon",
+      "text": "行く川の流れは絶えずして、しかももとの水にあらず。",
+      "author": "鴨長明",
+      "genre": "日本の古典",
+      "source": "方丈記",
+      "year": "1212年",
+      "explanation": "すべては変化し続けるという無常観。夢もまた変化するものであり、固執せず流れに身を任せることの大切さを教えている。"
+    },
+    {
+      "id": "dream_abandon_4",
+      "theme_id": "dream_abandon",
+      "text": "人間は考える葦である。宇宙に比べれば無に等しいが、考えることで宇宙を超える。",
+      "author": "ブレーズ・パスカル",
+      "genre": "哲学",
+      "source": "パンセ",
+      "year": "1670年",
+      "explanation": "人間の価値は達成した夢ではなく、思考する存在であることにある。夢が叶わなくても人間の尊厳は失われないことを示す。"
+    },
+    {
+      "id": "dream_abandon_5",
+      "theme_id": "dream_abandon",
+      "text": "神よ、変えられないものを受け入れる平静さと、変えられるものを変える勇気と、その違いを見分ける知恵を与えたまえ。",
+      "author": "ラインホルド・ニーバー",
+      "genre": "心理学",
+      "source": "ニーバーの祈り",
+      "year": "1943年",
+      "explanation": "夢を諦めるべきか続けるべきかの判断には、変えられるものと変えられないものを見極める知恵が必要であることを説いている。"
+    },
+    {
+      "id": "dream_abandon_6",
+      "theme_id": "dream_abandon",
+      "text": "二つの道が森の中で分かれていた。私は人の通らぬ道を選んだ。それが全ての違いを生んだ。",
+      "author": "ロバート・フロスト",
+      "genre": "詩",
+      "source": "選ばれざる道",
+      "year": "1916年",
+      "explanation": "人生の岐路での選択の重さを詠んだ詩。夢を諦めることも、続けることも、どちらも一つの選択であり、その選択が人生を形作る。"
+    },
+    {
+      "id": "dream_abandon_7",
+      "theme_id": "dream_abandon",
+      "text": "大道廃れて仁義あり。智慧出でて大偽あり。",
+      "author": "老子",
+      "genre": "哲学",
+      "source": "老子道徳経",
+      "year": "紀元前6世紀頃",
+      "explanation": "あるものが失われることで別の価値が生まれる。夢を手放すことで、別の大切なものに気づける可能性を示唆している。"
+    },
+    {
+      "id": "dream_abandon_8",
+      "theme_id": "dream_abandon",
+      "text": "僕は自分が経験したことしか歌いたくない。夢が終わっても、その経験は無駄にはならない。",
+      "author": "宮沢賢治",
+      "genre": "文学",
+      "source": "書簡",
+      "year": "1920年代",
+      "explanation": "夢を追った経験そのものに価値があるという考え。結果ではなく、その過程で得たものが人生を豊かにすることを伝えている。"
+    },
+    {
+      "id": "dream_abandon_9",
+      "theme_id": "dream_abandon",
+      "text": "人は自分の運命を選ぶことはできないが、運命を受け入れるか拒否するかは選べる。",
+      "author": "カール・ユング",
+      "genre": "心理学",
+      "source": "自伝",
+      "year": "1961年",
+      "explanation": "夢が叶わない状況を運命として受け入れることも、主体的な選択である。諦めることも能動的な決断となりうることを示している。"
+    },
+    {
+      "id": "dream_abandon_10",
+      "theme_id": "dream_abandon",
+      "text": "世の中に絶えて桜のなかりせば春の心はのどけからまし。",
+      "author": "在原業平",
+      "genre": "日本の古典",
+      "source": "古今和歌集",
+      "year": "905年",
+      "explanation": "桜がなければ穏やかでいられるという逆説。夢があるから苦しむが、夢がなければ味わえない感情もあることを示唆している。"
+    },
+    {
+      "id": "life_meaning_1",
+      "theme_id": "life_meaning",
+      "text": "人生それ自体には意味がない。しかし、意味がないことにも意味がないわけではない。",
+      "author": "フリードリヒ・ニーチェ",
+      "genre": "哲学",
+      "source": "ツァラトゥストラはかく語りき",
+      "year": "1885年",
+      "explanation": "意味の不在を認めた上で、それでも生きることの価値を見出そうとするニーチェの思想。虚無を超えて自ら意味を創造することを促す。"
+    },
+    {
+      "id": "life_meaning_2",
+      "theme_id": "life_meaning",
+      "text": "人生に意味を問うのではなく、人生から問われていることに答えるのだ。",
+      "author": "ヴィクトール・フランクル",
+      "genre": "心理学",
+      "source": "夜と霧",
+      "year": "1946年",
+      "explanation": "強制収容所の体験から生まれた洞察。意味を探すのではなく、今この瞬間に人生が自分に何を求めているかに応答することの大切さを説く。"
+    },
+    {
+      "id": "life_meaning_3",
+      "theme_id": "life_meaning",
+      "text": "一切皆苦。しかし苦を知る者は、苦を超える道を歩むことができる。",
+      "author": "釈迦",
+      "genre": "仏教",
+      "source": "四聖諦",
+      "year": "紀元前5世紀頃",
+      "explanation": "人生の苦しみを直視することから、苦を超える道が始まる。意味がわからない苦しみも、悟りへの入り口となりうることを教えている。"
+    },
+    {
+      "id": "life_meaning_4",
+      "theme_id": "life_meaning",
+      "text": "生まれ生まれ生まれ生まれて生の始めに暗く、死に死に死に死んで死の終わりに冥し。",
+      "author": "空海",
+      "genre": "仏教",
+      "source": "秘蔵宝鑰",
+      "year": "830年頃",
+      "explanation": "生死の意味が分からないのは人間の根本的な状態である。この暗さを認めることから、真の探求が始まることを示している。"
+    },
+    {
+      "id": "life_meaning_5",
+      "theme_id": "life_meaning",
+      "text": "吾れ十五にして学に志し、三十にして立ち、四十にして惑わず。",
+      "author": "孔子",
+      "genre": "哲学",
+      "source": "論語",
+      "year": "紀元前5世紀頃",
+      "explanation": "人生の意味は年齢とともに深まっていく。今わからなくても、学び続け生き続けることで、やがて見えてくるものがあることを示す。"
+    },
+    {
+      "id": "life_meaning_6",
+      "theme_id": "life_meaning",
+      "text": "実存は本質に先立つ。人間はまず存在し、その後で自らを定義するのである。",
+      "author": "ジャン＝ポール・サルトル",
+      "genre": "哲学",
+      "source": "実存主義とは何か",
+      "year": "1946年",
+      "explanation": "人生に予め決められた意味はない。自らの選択と行動によって意味を創り出していく自由と責任が人間にはあることを説いている。"
+    },
+    {
+      "id": "life_meaning_7",
+      "theme_id": "life_meaning",
+      "text": "私は何を知っているか。",
+      "author": "ミシェル・ド・モンテーニュ",
+      "genre": "文学",
+      "source": "エセー",
+      "year": "1580年",
+      "explanation": "根本的な問いを持ち続けることの価値。意味がわからないと認めることは、知的誠実さの表れであり、探求の出発点となる。"
+    },
+    {
+      "id": "life_meaning_8",
+      "theme_id": "life_meaning",
+      "text": "ただ過ぎに過ぐるもの。帆かけたる舟。人の齢。",
+      "author": "清少納言",
+      "genre": "日本の古典",
+      "source": "枕草子",
+      "year": "1001年頃",
+      "explanation": "人生は過ぎ去っていくものという認識。その儚さの中にこそ、今この瞬間を生きることの意味があることを示唆している。"
+    },
+    {
+      "id": "life_meaning_9",
+      "theme_id": "life_meaning",
+      "text": "私は私を生きるよりほかに私のすることはない。",
+      "author": "中原中也",
+      "genre": "詩",
+      "source": "在りし日の歌",
+      "year": "1938年",
+      "explanation": "意味を探すのではなく、ただ自分として生きること。その単純な事実の中に、意味を超えた存在の価値があることを詠んでいる。"
+    },
+    {
+      "id": "life_meaning_10",
+      "theme_id": "life_meaning",
+      "text": "汝自身を知れ。",
+      "author": "ソクラテス",
+      "genre": "哲学",
+      "source": "デルポイの神託",
+      "year": "紀元前5世紀頃",
+      "explanation": "人生の意味を外に探すのではなく、まず自分自身を深く知ることから始めよという教え。自己理解が意味への道を開くことを示す。"
+    },
+    {
+      "id": "fear_of_change_1",
+      "theme_id": "fear_of_change",
+      "text": "万物は流転する。同じ川に二度入ることはできない。",
+      "author": "ヘラクレイトス",
+      "genre": "哲学",
+      "source": "断片集",
+      "year": "紀元前500年頃",
+      "explanation": "変化は宇宙の根本原理である。変化を恐れることは、存在そのものを恐れることに等しい。流れに逆らわず受け入れることを説く。"
+    },
+    {
+      "id": "fear_of_change_2",
+      "theme_id": "fear_of_change",
+      "text": "諸行無常。変化しないものは何もない。この真理を受け入れることが、心の平安への道である。",
+      "author": "釈迦",
+      "genre": "仏教",
+      "source": "涅槃経",
+      "year": "紀元前5世紀頃",
+      "explanation": "すべては変化するという仏教の根本教義。変化を恐れるのは永続を求める執着から生まれる。無常を受け入れることで恐れは和らぐ。"
+    },
+    {
+      "id": "fear_of_change_3",
+      "theme_id": "fear_of_change",
+      "text": "散る桜 残る桜も 散る桜。",
+      "author": "良寛",
+      "genre": "詩",
+      "source": "良寛詩集",
+      "year": "19世紀初頭",
+      "explanation": "今残っている桜もいつかは散る。変化は避けられないが、その儚さの中にこそ美しさがある。変化を恐れず受け入れる心を詠む。"
+    },
+    {
+      "id": "fear_of_change_4",
+      "theme_id": "fear_of_change",
+      "text": "人生とは自転車に乗るようなものだ。バランスを保つには、動き続けなければならない。",
+      "author": "アルベルト・アインシュタイン",
+      "genre": "文学",
+      "source": "書簡集",
+      "year": "1930年",
+      "explanation": "変化せずに止まることはかえって不安定である。前に進み続けること、変化し続けることでバランスが保たれることを示している。"
+    },
+    {
+      "id": "fear_of_change_5",
+      "theme_id": "fear_of_change",
+      "text": "我々が恐れなければならないのは、恐怖そのものである。",
+      "author": "フランクリン・ルーズベルト",
+      "genre": "文学",
+      "source": "大統領就任演説",
+      "year": "1933年",
+      "explanation": "変化そのものより、変化への恐怖が人を麻痺させる。恐れという感情自体に向き合うことで、変化に対処する力が生まれることを説く。"
+    },
+    {
+      "id": "fear_of_change_6",
+      "theme_id": "fear_of_change",
+      "text": "上善は水の如し。水は万物を利して争わず、衆人の悪む所に処る。",
+      "author": "老子",
+      "genre": "哲学",
+      "source": "老子道徳経",
+      "year": "紀元前6世紀頃",
+      "explanation": "水のように柔軟に形を変えながら流れることが最善の生き方。変化に抵抗せず、自然に適応することの知恵を説いている。"
+    },
+    {
+      "id": "fear_of_change_7",
+      "theme_id": "fear_of_change",
+      "text": "コンフォートゾーンの外側にこそ、すべての成長がある。",
+      "author": "アブラハム・マズロー",
+      "genre": "心理学",
+      "source": "人間性の心理学",
+      "year": "1954年",
+      "explanation": "変化を恐れて安全な場所に留まることは成長を止める。不快さを伴う変化の中にこそ、自己実現の機会があることを説いている。"
+    },
+    {
+      "id": "fear_of_change_8",
+      "theme_id": "fear_of_change",
+      "text": "ゆく河の流れは絶えずして、しかももとの水にあらず。淀みに浮かぶうたかたは、かつ消えかつ結びて、久しくとどまりたるためしなし。",
+      "author": "鴨長明",
+      "genre": "日本の古典",
+      "source": "方丈記",
+      "year": "1212年",
+      "explanation": "変化は自然の摂理であり、留まり続けるものはない。この無常観を受け入れることで、変化への恐れから解放されることを示す。"
+    },
+    {
+      "id": "fear_of_change_9",
+      "theme_id": "fear_of_change",
+      "text": "窮すれば即ち変じ、変ずれば即ち通ず。",
+      "author": "作者不詳",
+      "genre": "哲学",
+      "source": "易経",
+      "year": "紀元前1000年頃",
+      "explanation": "行き詰まったときこそ変化が起き、変化することで道が開ける。変化を恐れず受け入れることで、困難を打開できることを説く。"
+    },
+    {
+      "id": "fear_of_change_10",
+      "theme_id": "fear_of_change",
+      "text": "明日死ぬかのように生きよ。永遠に生きるかのように学べ。",
+      "author": "マハトマ・ガンディー",
+      "genre": "哲学",
+      "source": "演説集",
+      "year": "20世紀前半",
+      "explanation": "死という究極の変化を意識することで、今を生きる力が湧く。変化を恐れるのではなく、変化の中で学び続けることの大切さを説く。"
+    },
+    {
+      "id": "happiness_unknown_1",
+      "theme_id": "happiness_unknown",
+      "text": "幸福とは、幸福を問題にしない時をいう",
+      "author": "芥川龍之介",
+      "genre": "文学",
+      "source": "侏儒の言葉",
+      "year": "1923年",
+      "explanation": "幸せを意識して追い求めるほど遠ざかり、無意識のうちにこそ幸福は存在するという逆説を示し、幸せの定義の難しさを表現している。"
+    },
+    {
+      "id": "happiness_unknown_2",
+      "theme_id": "happiness_unknown",
+      "text": "幸福は蝶のようなものだ。追えば追うほど逃げていく。しかし静かに座れば、肩に止まることもある",
+      "author": "ナサニエル・ホーソーン",
+      "genre": "文学",
+      "source": "書簡集",
+      "year": "19世紀",
+      "explanation": "幸福を定義し追求することの困難さと、むしろ受動的な姿勢でこそ幸福は訪れるという洞察を美しい比喩で表現している。"
+    },
+    {
+      "id": "happiness_unknown_3",
+      "theme_id": "happiness_unknown",
+      "text": "一切皆苦",
+      "author": "釈迦",
+      "genre": "仏教",
+      "source": "四諦（原始仏典）",
+      "year": "紀元前5世紀",
+      "explanation": "人生の本質は苦であると説き、世俗的な幸福の追求そのものを問い直す視点を与え、幸せとは何かという根本的な問いを投げかける。"
+    },
+    {
+      "id": "happiness_unknown_4",
+      "theme_id": "happiness_unknown",
+      "text": "幸福とは活動の中にある。それは走る川のようなもので、動いていなければ澱んでしまう",
+      "author": "アリストテレス",
+      "genre": "哲学",
+      "source": "ニコマコス倫理学",
+      "year": "紀元前4世紀",
+      "explanation": "幸福は静的な状態ではなく、魂の活動であるという定義を示し、幸福の本質についての古典的な哲学的回答を提示している。"
+    },
+    {
+      "id": "happiness_unknown_5",
+      "theme_id": "happiness_unknown",
+      "text": "幸福の秘訣は、自分がやりたいことをするのではなく、自分がやらなければならないことを好きになることだ",
+      "author": "ジェームズ・バリー",
+      "genre": "文学",
+      "source": "演説・随筆",
+      "year": "20世紀初頭",
+      "explanation": "幸福を外的な達成ではなく内的な態度の変容として捉え直し、幸せの定義が主観的なものであることを示唆している。"
+    },
+    {
+      "id": "happiness_unknown_6",
+      "theme_id": "happiness_unknown",
+      "text": "世の中に寝るほど楽はなかりけり浮世の馬鹿は起きて働く",
+      "author": "詠み人知らず",
+      "genre": "日本の古典",
+      "source": "狂歌",
+      "year": "江戸時代",
+      "explanation": "世俗的な勤勉を皮肉りつつ、何が本当の幸せかという価値観の相対性をユーモラスに問いかけている。"
+    },
+    {
+      "id": "happiness_unknown_7",
+      "theme_id": "happiness_unknown",
+      "text": "人は自分の幸福を知らない。他人の幸福を羨むことで、自分の不幸を作り出す",
+      "author": "老子",
+      "genre": "哲学",
+      "source": "道徳経",
+      "year": "紀元前6世紀頃",
+      "explanation": "比較によって生じる不幸を指摘し、幸福とは外的な基準ではなく内面の問題であることを示している。"
+    },
+    {
+      "id": "happiness_unknown_8",
+      "theme_id": "happiness_unknown",
+      "text": "人生の意味を問うのではなく、人生から問われていると考えよ",
+      "author": "ヴィクトール・フランクル",
+      "genre": "心理学",
+      "source": "夜と霧",
+      "year": "1946年",
+      "explanation": "幸福や意味を探し求める姿勢を逆転させ、自らが応答する存在として生きることで意味が生まれると説いている。"
+    },
+    {
+      "id": "happiness_unknown_9",
+      "theme_id": "happiness_unknown",
+      "text": "ゆく河の流れは絶えずして、しかももとの水にあらず",
+      "author": "鴨長明",
+      "genre": "日本の古典",
+      "source": "方丈記",
+      "year": "1212年",
+      "explanation": "万物の無常を詠み、固定的な幸福など存在しないという認識を促し、幸せの儚さと不確かさを示唆している。"
+    },
+    {
+      "id": "happiness_unknown_10",
+      "theme_id": "happiness_unknown",
+      "text": "幸福とは、健康と物忘れの早さである",
+      "author": "オードリー・ヘプバーン",
+      "genre": "文学",
+      "source": "インタビュー",
+      "year": "20世紀後半",
+      "explanation": "シンプルかつ逆説的な定義で、幸福を深刻に追求することへの軽やかなアンチテーゼを示している。"
+    },
+    {
+      "id": "death_thoughts_1",
+      "theme_id": "death_thoughts",
+      "text": "死を想え（メメント・モリ）",
+      "author": "古代ローマの格言",
+      "genre": "哲学",
+      "source": "ラテン語格言",
+      "year": "古代ローマ",
+      "explanation": "死を常に意識することで、今この瞬間を充実させて生きよという教訓であり、死の思索を肯定的に捉え直す言葉。"
+    },
+    {
+      "id": "death_thoughts_2",
+      "theme_id": "death_thoughts",
+      "text": "生死事大、無常迅速",
+      "author": "道元",
+      "genre": "仏教",
+      "source": "正法眼蔵随聞記",
+      "year": "13世紀",
+      "explanation": "生と死は最も重大な問題であり、時は瞬く間に過ぎるという認識を示し、死を真剣に考えることの意義を説いている。"
+    },
+    {
+      "id": "death_thoughts_3",
+      "theme_id": "death_thoughts",
+      "text": "哲学することは死ぬことを学ぶことである",
+      "author": "プラトン",
+      "genre": "哲学",
+      "source": "パイドン",
+      "year": "紀元前4世紀",
+      "explanation": "ソクラテスの最期を描きながら、死について考えることこそ哲学の本質であると説き、死の思索を知的営みとして肯定している。"
+    },
+    {
+      "id": "death_thoughts_4",
+      "theme_id": "death_thoughts",
+      "text": "死は人生の終末ではない。生涯の完成である",
+      "author": "マルティン・ルター",
+      "genre": "哲学",
+      "source": "説教集",
+      "year": "16世紀",
+      "explanation": "死を否定的な終わりではなく、人生という作品の完成として捉え直し、死への恐れを和らげる視点を提供している。"
+    },
+    {
+      "id": "death_thoughts_5",
+      "theme_id": "death_thoughts",
+      "text": "つひにゆく道とはかねて聞きしかど昨日今日とは思はざりしを",
+      "author": "在原業平",
+      "genre": "日本の古典",
+      "source": "伊勢物語・古今和歌集",
+      "year": "9世紀",
+      "explanation": "死が避けられないことは知っていても、いざ直面すると実感が湧かないという人間の心理を繊細に詠んでいる。"
+    },
+    {
+      "id": "death_thoughts_6",
+      "theme_id": "death_thoughts",
+      "text": "死に至る病とは絶望のことである",
+      "author": "セーレン・キェルケゴール",
+      "genre": "哲学",
+      "source": "死に至る病",
+      "year": "1849年",
+      "explanation": "肉体的な死よりも精神的な絶望こそが真の死であると説き、死について考えることの実存的意味を深めている。"
+    },
+    {
+      "id": "death_thoughts_7",
+      "theme_id": "death_thoughts",
+      "text": "朝に道を聞かば、夕べに死すとも可なり",
+      "author": "孔子",
+      "genre": "哲学",
+      "source": "論語",
+      "year": "紀元前5世紀",
+      "explanation": "真理を悟れば死んでも悔いはないという言葉で、死を恐れるよりも真理の探求を優先する姿勢を示している。"
+    },
+    {
+      "id": "death_thoughts_8",
+      "theme_id": "death_thoughts",
+      "text": "死の恐怖は、生を充実させていない恐怖に他ならない",
+      "author": "フランツ・カフカ",
+      "genre": "文学",
+      "source": "日記・断章",
+      "year": "20世紀初頭",
+      "explanation": "死への恐れの根源は生の空虚さにあると指摘し、死を考えることが生き方を問い直す契機となることを示唆している。"
+    },
+    {
+      "id": "death_thoughts_9",
+      "theme_id": "death_thoughts",
+      "text": "生まれ生まれ生まれ生まれて生の始めに暗く、死に死に死に死んで死の終わりに冥し",
+      "author": "空海",
+      "genre": "仏教",
+      "source": "秘蔵宝鑰",
+      "year": "9世紀",
+      "explanation": "生死の連鎖の中で人は無明の中にあると説き、死を考えることが悟りへの道であることを示している。"
+    },
+    {
+      "id": "death_thoughts_10",
+      "theme_id": "death_thoughts",
+      "text": "人は死ぬ。それは確かだ。しかし、いつ死ぬかわからない。それも確かだ。だから今日を生きよ",
+      "author": "マハトマ・ガンディー",
+      "genre": "哲学",
+      "source": "演説・書簡",
+      "year": "20世紀前半",
+      "explanation": "死の確実性と時期の不確実性を認めた上で、現在を生きることの大切さを説き、死の思索を前向きに転換している。"
+    },
+    {
+      "id": "time_wasted_1",
+      "theme_id": "time_wasted",
+      "text": "過去に執着せず、未来に夢見ず、心を現在に集中せよ",
+      "author": "釈迦",
+      "genre": "仏教",
+      "source": "中部経典",
+      "year": "紀元前5世紀",
+      "explanation": "過去や未来への意識が現在を空虚にすると説き、時間を無駄にしている感覚から脱する方法として今に集中することを勧めている。"
+    },
+    {
+      "id": "time_wasted_2",
+      "theme_id": "time_wasted",
+      "text": "時を失うことほど大きな損失はない。それは取り返しがつかないからだ",
+      "author": "ベンジャミン・フランクリン",
+      "genre": "哲学",
+      "source": "貧しいリチャードの暦",
+      "year": "18世紀",
+      "explanation": "時間の不可逆性を強調し、時間を浪費することへの警鐘を鳴らしつつ、その貴重さに気づかせる言葉。"
+    },
+    {
+      "id": "time_wasted_3",
+      "theme_id": "time_wasted",
+      "text": "月日は百代の過客にして、行きかふ年もまた旅人なり",
+      "author": "松尾芭蕉",
+      "genre": "日本の古典",
+      "source": "おくのほそ道",
+      "year": "1689年",
+      "explanation": "時間を旅人に喩え、過ぎゆく時の流れの中で自分もまた旅人であるという認識を示し、時間への焦りを相対化している。"
+    },
+    {
+      "id": "time_wasted_4",
+      "theme_id": "time_wasted",
+      "text": "人生は短いが、退屈な時間がそれを長くする",
+      "author": "マルセル・プルースト",
+      "genre": "文学",
+      "source": "失われた時を求めて",
+      "year": "1913年",
+      "explanation": "無為に過ごす時間が人生を空虚に感じさせることを指摘し、時間の質が人生の長さの感覚を左右することを示している。"
+    },
+    {
+      "id": "time_wasted_5",
+      "theme_id": "time_wasted",
+      "text": "少年老い易く学成り難し、一寸の光陰軽んずべからず",
+      "author": "朱熹",
+      "genre": "哲学",
+      "source": "偶成",
+      "year": "12世紀",
+      "explanation": "時の流れの速さと学問の困難さを対比し、わずかな時間も無駄にしてはならないという教訓を与えている。"
+    },
+    {
+      "id": "time_wasted_6",
+      "theme_id": "time_wasted",
+      "text": "我々は長く生きることではなく、十分に生きることを考えるべきだ",
+      "author": "セネカ",
+      "genre": "哲学",
+      "source": "人生の短さについて",
+      "year": "1世紀",
+      "explanation": "時間の長さではなく質が重要だと説き、時間を無駄にしている感覚への処方箋として生の充実を提案している。"
+    },
+    {
+      "id": "time_wasted_7",
+      "theme_id": "time_wasted",
+      "text": "フロー体験において、時間の感覚は変容する",
+      "author": "ミハイ・チクセントミハイ",
+      "genre": "心理学",
+      "source": "フロー体験 喜びの現象学",
+      "year": "1990年",
+      "explanation": "没頭する活動の中では時間が無駄に感じられなくなることを科学的に示し、時間の無駄感への心理学的解決策を提示している。"
+    },
+    {
+      "id": "time_wasted_8",
+      "theme_id": "time_wasted",
+      "text": "今日なし得ることを明日に延ばすな",
+      "author": "トーマス・ジェファーソン",
+      "genre": "哲学",
+      "source": "書簡集",
+      "year": "18世紀",
+      "explanation": "先延ばしが時間の浪費につながることを戒め、即座の行動の重要性を説いている。"
+    },
+    {
+      "id": "time_wasted_9",
+      "theme_id": "time_wasted",
+      "text": "散る桜 残る桜も 散る桜",
+      "author": "良寛",
+      "genre": "詩",
+      "source": "良寛歌集",
+      "year": "江戸時代後期",
+      "explanation": "すべてのものは等しく散りゆく運命にあることを詠み、時間の経過を嘆くよりも無常を受け入れる境地を示している。"
+    },
+    {
+      "id": "time_wasted_10",
+      "theme_id": "time_wasted",
+      "text": "道を行く途中こそが、実は目的地なのだ",
+      "author": "荘子",
+      "genre": "哲学",
+      "source": "荘子",
+      "year": "紀元前4世紀",
+      "explanation": "目的に到達することだけでなく、過程そのものに価値があると説き、時間が無駄だという感覚を根本から問い直している。"
+    },
+    {
+      "id": "choice_regret_1",
+      "theme_id": "choice_regret",
+      "text": "人生は選択の連続である。選ばなかった道を嘆くより、選んだ道を正解にする努力をせよ。",
+      "author": "セネカ",
+      "genre": "哲学",
+      "source": "人生の短さについて",
+      "year": "紀元前1世紀",
+      "explanation": "ストア派の哲人セネカは、過去の選択への後悔に囚われることの無意味さを説き、現在の行動で選択を肯定することの重要性を教えている。"
+    },
+    {
+      "id": "choice_regret_2",
+      "theme_id": "choice_regret",
+      "text": "森の中で道が二つに分かれていた。私は人があまり通っていない道を選んだ。そのことが全てを変えた。",
+      "author": "ロバート・フロスト",
+      "genre": "詩",
+      "source": "選ばれざる道",
+      "year": "1916年",
+      "explanation": "選択の瞬間と、選ばなかった道への思いを詠んだ詩。後悔とも受容ともとれる複雑な心情が、選択の本質を映し出している。"
+    },
+    {
+      "id": "choice_regret_3",
+      "theme_id": "choice_regret",
+      "text": "過去を追うな。未来を願うな。過去はすでに捨てられた。未来はまだ来ない。",
+      "author": "ブッダ",
+      "genre": "仏教",
+      "source": "中部経典（マッジマ・ニカーヤ）",
+      "year": "紀元前5世紀",
+      "explanation": "仏教の根本教えとして、過ぎ去った選択への執着を手放し、今この瞬間に集中することで後悔から解放されると説いている。"
+    },
+    {
+      "id": "choice_regret_4",
+      "theme_id": "choice_regret",
+      "text": "取り返しのつかないことを、くよくよ考えても仕方がない。前へ進むのだ。",
+      "author": "夏目漱石",
+      "genre": "文学",
+      "source": "それから",
+      "year": "1909年",
+      "explanation": "漱石は作品を通じて、過去の選択に苦悩する人間の姿を描きながらも、前進することでしか救いがないことを示唆している。"
+    },
+    {
+      "id": "choice_regret_5",
+      "theme_id": "choice_regret",
+      "text": "後悔とは、現在の自分が過去の自分を裁くことである。だが過去の自分もまた最善を尽くしていた。",
+      "author": "カール・ユング",
+      "genre": "心理学",
+      "source": "自我と無意識",
+      "year": "1928年",
+      "explanation": "ユングは後悔の心理構造を分析し、過去の自分も当時の知識と状況で最善を選んでいたという視点を与え、自己赦しを促している。"
+    },
+    {
+      "id": "choice_regret_6",
+      "theme_id": "choice_regret",
+      "text": "ゆく河の流れは絶えずして、しかももとの水にあらず。よどみに浮かぶうたかたは、かつ消えかつ結びて、久しくとどまりたる例なし。",
+      "author": "鴨長明",
+      "genre": "日本の古典",
+      "source": "方丈記",
+      "year": "1212年",
+      "explanation": "無常観を詠んだこの冒頭は、過ぎ去った選択もまた流れゆく水の如く戻らぬものであり、執着の無意味さを悟らせる。"
+    },
+    {
+      "id": "choice_regret_7",
+      "theme_id": "choice_regret",
+      "text": "大丈夫の志、行くとして道あらざるはなし。どこへ行っても我が道となる。",
+      "author": "王陽明",
+      "genre": "哲学",
+      "source": "伝習録",
+      "year": "16世紀",
+      "explanation": "陽明学の祖は、どの道を選んでもそこに意味を見出せると説く。選択の後悔より、選んだ道で志を貫くことの大切さを教える。"
+    },
+    {
+      "id": "choice_regret_8",
+      "theme_id": "choice_regret",
+      "text": "人間は自由の刑に処せられている。一度世界に投げ出されたら、自分のすることすべてに責任を負う。",
+      "author": "ジャン＝ポール・サルトル",
+      "genre": "哲学",
+      "source": "実存主義とは何か",
+      "year": "1946年",
+      "explanation": "サルトルは選択の自由と責任を説いた。後悔は自由の裏返しであり、その重さを引き受けることが実存的な生き方だと主張した。"
+    },
+    {
+      "id": "choice_regret_9",
+      "theme_id": "choice_regret",
+      "text": "憂きことのなほこの上に積もれかし 限りある身の力試さん",
+      "author": "山中鹿之助",
+      "genre": "日本の古典",
+      "source": "武将の辞世",
+      "year": "16世紀",
+      "explanation": "困難な選択の結果すら受け入れ、さらなる試練を望む覚悟を詠んだ歌。後悔を超えて運命に立ち向かう武士の精神を表す。"
+    },
+    {
+      "id": "choice_regret_10",
+      "theme_id": "choice_regret",
+      "text": "人は皆、選ばなかった人生を想像して苦しむ。しかし選んだ人生にこそ、あなたの物語がある。",
+      "author": "バガヴァッド・ギーター",
+      "genre": "仏教",
+      "source": "バガヴァッド・ギーター",
+      "year": "紀元前2世紀頃",
+      "explanation": "インドの聖典は、与えられた義務を果たすことの重要性を説く。選択への迷いを超え、自らの道を歩む覚悟を促している。"
+    },
+    {
+      "id": "world_dissatisfaction_1",
+      "theme_id": "world_dissatisfaction",
+      "text": "一切皆苦。この世の存在はすべて苦しみを本質とする。",
+      "author": "ブッダ",
+      "genre": "仏教",
+      "source": "四諦（初転法輪）",
+      "year": "紀元前5世紀",
+      "explanation": "仏教の根本真理として、世の中への不満の根源が「苦」にあることを示し、その原因と解決法を四諦として体系化している。"
+    },
+    {
+      "id": "world_dissatisfaction_2",
+      "theme_id": "world_dissatisfaction",
+      "text": "この世は生きるに値するか。生きるに値するものにすることが我々の仕事だ。",
+      "author": "アルベール・カミュ",
+      "genre": "文学",
+      "source": "シーシュポスの神話",
+      "year": "1942年",
+      "explanation": "不条理な世界への不満を直視しながらも、それでも生きる意味を創造することを説いた実存主義文学の代表作。"
+    },
+    {
+      "id": "world_dissatisfaction_3",
+      "theme_id": "world_dissatisfaction",
+      "text": "世を恨み人を怨むは愚かなり。己が心の鬼を退治せよ。",
+      "author": "空海",
+      "genre": "仏教",
+      "source": "性霊集",
+      "year": "9世紀",
+      "explanation": "世の中への不満は外部にあるのではなく、自らの心にあると説く。内省によって不満を克服する道を示している。"
+    },
+    {
+      "id": "world_dissatisfaction_4",
+      "theme_id": "world_dissatisfaction",
+      "text": "世の人は我を何とも言わば言え。我が為すことは我のみぞ知る。",
+      "author": "坂本龍馬",
+      "genre": "日本の古典",
+      "source": "龍馬書簡",
+      "year": "19世紀",
+      "explanation": "幕末の志士が詠んだこの歌は、世間への不満を超越し、自らの信念に従って行動する覚悟を表している。"
+    },
+    {
+      "id": "world_dissatisfaction_5",
+      "theme_id": "world_dissatisfaction",
+      "text": "国家とは最も冷たい怪物である。国家は嘘をつく、この嘘が国家の口から這い出る。",
+      "author": "フリードリヒ・ニーチェ",
+      "genre": "哲学",
+      "source": "ツァラトゥストラはかく語りき",
+      "year": "1883年",
+      "explanation": "ニーチェは社会制度への根本的な不信を表明し、個人が既存の価値観を超えて自らの価値を創造すべきと説いた。"
+    },
+    {
+      "id": "world_dissatisfaction_6",
+      "theme_id": "world_dissatisfaction",
+      "text": "天下を憂うる者は、必ず先ず其の身を修む。",
+      "author": "孟子",
+      "genre": "哲学",
+      "source": "孟子",
+      "year": "紀元前4世紀",
+      "explanation": "世の中への不満を持つなら、まず自己を修養せよという儒教の教え。社会変革は自己変革から始まることを説いている。"
+    },
+    {
+      "id": "world_dissatisfaction_7",
+      "theme_id": "world_dissatisfaction",
+      "text": "人間は考える葦である。宇宙は人間を押し潰すが、人間は自分が死ぬことを知っている点で宇宙より崇高だ。",
+      "author": "ブレーズ・パスカル",
+      "genre": "哲学",
+      "source": "パンセ",
+      "year": "1670年",
+      "explanation": "無情な世界の中で、人間の尊厳は思考にあると説く。世界への不満を認めつつも、人間の偉大さを主張している。"
+    },
+    {
+      "id": "world_dissatisfaction_8",
+      "theme_id": "world_dissatisfaction",
+      "text": "世の中に絶えて桜のなかりせば 春の心はのどけからまし",
+      "author": "在原業平",
+      "genre": "日本の古典",
+      "source": "古今和歌集",
+      "year": "9世紀",
+      "explanation": "美しいものがあるからこそ心が乱れるという逆説的な嘆き。世の中の美と苦しみの表裏一体を詠んだ名歌である。"
+    },
+    {
+      "id": "world_dissatisfaction_9",
+      "theme_id": "world_dissatisfaction",
+      "text": "社会が病んでいるとき、正常な人間は不適応を起こす。適応できることが健康の証ではない。",
+      "author": "エーリッヒ・フロム",
+      "genre": "心理学",
+      "source": "正気の社会",
+      "year": "1955年",
+      "explanation": "フロムは社会への不適応を必ずしも個人の問題とせず、むしろ社会自体の病理を指摘した。不満を持つことの正当性を示唆する。"
+    },
+    {
+      "id": "world_dissatisfaction_10",
+      "theme_id": "world_dissatisfaction",
+      "text": "濁った水も静かにしておけば澄んでくる。あなたの心も同じだ。静かに待てば答えは見える。",
+      "author": "老子",
+      "genre": "哲学",
+      "source": "老子道徳経",
+      "year": "紀元前6世紀",
+      "explanation": "道家の思想は、世の中への不満に対して無為自然を説く。心を静めることで、混沌とした世界にも秩序を見出せると教える。"
+    },
+    {
+      "id": "money_happiness_1",
+      "theme_id": "money_happiness",
+      "text": "富は海水に似ている。飲めば飲むほど喉が渇く。",
+      "author": "アルトゥル・ショーペンハウアー",
+      "genre": "哲学",
+      "source": "随感録",
+      "year": "19世紀",
+      "explanation": "ショーペンハウアーは金銭への欲望が際限なく、満足をもたらさないことを喩えで示し、物質的富と幸福の乖離を説いた。"
+    },
+    {
+      "id": "money_happiness_2",
+      "theme_id": "money_happiness",
+      "text": "貧しき者は幸いなり。天国は彼らのものである。",
+      "author": "イエス・キリスト",
+      "genre": "文学",
+      "source": "新約聖書（マタイによる福音書）",
+      "year": "1世紀",
+      "explanation": "物質的貧困と精神的豊かさの逆説を説いた山上の垂訓。金銭的富が必ずしも真の幸福ではないことを示している。"
+    },
+    {
+      "id": "money_happiness_3",
+      "theme_id": "money_happiness",
+      "text": "足るを知る者は富む。強いて行う者は志有り。",
+      "author": "老子",
+      "genre": "哲学",
+      "source": "老子道徳経",
+      "year": "紀元前6世紀",
+      "explanation": "「知足」の教えとして有名。持っているもので満足できる者こそが真に豊かであると説き、欲望の制御を幸福の鍵とする。"
+    },
+    {
+      "id": "money_happiness_4",
+      "theme_id": "money_happiness",
+      "text": "金銭は肥料のようなものだ。ばら撒かなければ役に立たない。",
+      "author": "フランシス・ベーコン",
+      "genre": "哲学",
+      "source": "随筆集",
+      "year": "1625年",
+      "explanation": "ベーコンは富の価値はその使い方にあると説いた。溜め込むだけでは幸福をもたらさず、社会に還元することで意味を持つ。"
+    },
+    {
+      "id": "money_happiness_5",
+      "theme_id": "money_happiness",
+      "text": "年収七万五千ドルを超えると、収入の増加は日々の幸福感に影響しなくなる。",
+      "author": "ダニエル・カーネマン",
+      "genre": "心理学",
+      "source": "幸福研究",
+      "year": "2010年",
+      "explanation": "ノーベル経済学賞受賞者カーネマンの研究は、一定水準を超えると金銭と幸福の相関が弱まることを実証的に示した。"
+    },
+    {
+      "id": "money_happiness_6",
+      "theme_id": "money_happiness",
+      "text": "徳は財の本なり。財は徳の末なり。",
+      "author": "渋沢栄一",
+      "genre": "文学",
+      "source": "論語と算盤",
+      "year": "1916年",
+      "explanation": "日本資本主義の父は、道徳と経済の一致を説いた。財産は徳の結果であり目的ではないという、お金と幸せの健全な関係を示す。"
+    },
+    {
+      "id": "money_happiness_7",
+      "theme_id": "money_happiness",
+      "text": "財を蓄うる者は身を失い、名を欲する者は徳を損なう。",
+      "author": "荘子",
+      "genre": "哲学",
+      "source": "荘子",
+      "year": "紀元前4世紀",
+      "explanation": "道家思想において、財産への執着が人間性を損なうと警告。自然な生き方こそが幸福への道だと説いている。"
+    },
+    {
+      "id": "money_happiness_8",
+      "theme_id": "money_happiness",
+      "text": "世の中に金より大事なものがある。しかし金がなければそれも得られぬ。",
+      "author": "太宰治",
+      "genre": "文学",
+      "source": "人間失格",
+      "year": "1948年",
+      "explanation": "太宰は金銭を否定せず、その必要性を認めつつも、より大切なものの存在を示唆する。現代人の金銭観を鋭く突いている。"
+    },
+    {
+      "id": "money_happiness_9",
+      "theme_id": "money_happiness",
+      "text": "われ富めりと誇る者よ、汝の富は衣の如く朽ちん。",
+      "author": "親鸞",
+      "genre": "仏教",
+      "source": "歎異抄",
+      "year": "13世紀",
+      "explanation": "浄土真宗の開祖は、物質的富の無常を説き、真の救いは阿弥陀仏への帰依にあると教えた。金銭への執着からの解放を促す。"
+    },
+    {
+      "id": "money_happiness_10",
+      "theme_id": "money_happiness",
+      "text": "金で幸せは買えないが、不幸を避ける手段にはなる。",
+      "author": "アリストテレス",
+      "genre": "哲学",
+      "source": "ニコマコス倫理学",
+      "year": "紀元前4世紀",
+      "explanation": "アリストテレスは中庸を重んじ、富は幸福の必要条件だが十分条件ではないと説いた。バランスの取れた金銭観を示している。"
+    },
+    {
+      "id": "ai_era_1",
+      "theme_id": "ai_era",
+      "text": "技術は召使いとしては優秀だが、主人としては危険である",
+      "author": "クリスチャン・ランゲ",
+      "genre": "哲学",
+      "source": "ノーベル平和賞受賞講演",
+      "year": "1921年",
+      "explanation": "AIを道具として活用しつつ、人間が主体性を保つことの重要性を示唆する言葉。技術に支配されず、使いこなす姿勢が求められる。"
+    },
+    {
+      "id": "ai_era_2",
+      "theme_id": "ai_era",
+      "text": "機械は計算するが、人間だけが理解する",
+      "author": "マルティン・ハイデガー",
+      "genre": "哲学",
+      "source": "技術への問い",
+      "year": "1954年",
+      "explanation": "AIが情報処理に優れても、意味を理解し世界と関わるのは人間固有の能力である。人間の存在価値を再確認させる。"
+    },
+    {
+      "id": "ai_era_3",
+      "theme_id": "ai_era",
+      "text": "自ら灯火となれ、自らを拠り所とせよ",
+      "author": "釈迦",
+      "genre": "仏教",
+      "source": "大般涅槃経",
+      "year": "紀元前5世紀",
+      "explanation": "AIに依存せず、自分自身の知恵と判断を磨くことの大切さ。外部の便利さに頼りすぎない自立の教え。"
+    },
+    {
+      "id": "ai_era_4",
+      "theme_id": "ai_era",
+      "text": "行雲流水",
+      "author": "禅語",
+      "genre": "仏教",
+      "source": "禅林句集",
+      "year": "12世紀",
+      "explanation": "AIの急速な変化の時代に、執着せず柔軟に流れに身を任せながらも、自分の本質を失わない生き方の指針となる。"
+    },
+    {
+      "id": "ai_era_5",
+      "theme_id": "ai_era",
+      "text": "われ思う、ゆえにわれあり",
+      "author": "ルネ・デカルト",
+      "genre": "哲学",
+      "source": "方法序説",
+      "year": "1637年",
+      "explanation": "AIが思考を代行する時代でも、考える主体としての人間の存在は揺るがない。自己の思考の価値を再認識させる。"
+    },
+    {
+      "id": "ai_era_6",
+      "theme_id": "ai_era",
+      "text": "人間は考える葦である",
+      "author": "ブレーズ・パスカル",
+      "genre": "哲学",
+      "source": "パンセ",
+      "year": "1670年",
+      "explanation": "人間は弱い存在だが、思考する点で宇宙より偉大。AIの時代にこそ、思考する人間の尊厳を思い出すべき。"
+    },
+    {
+      "id": "ai_era_7",
+      "theme_id": "ai_era",
+      "text": "ゆく河の流れは絶えずして、しかももとの水にあらず",
+      "author": "鴨長明",
+      "genre": "日本の古典",
+      "source": "方丈記",
+      "year": "1212年",
+      "explanation": "技術革新で世界は変わり続けるが、変化を受け入れつつ本質を見極める姿勢が、AI時代を生きる知恵となる。"
+    },
+    {
+      "id": "ai_era_8",
+      "theme_id": "ai_era",
+      "text": "人の世を作ったものは神でもなければ鬼でもない。やはり向う三軒両隣りにちらちらするただの人である",
+      "author": "夏目漱石",
+      "genre": "文学",
+      "source": "草枕",
+      "year": "1906年",
+      "explanation": "AIではなく人間同士の関係が社会を作る。技術の時代でも、人と人のつながりこそが本質であることを示す。"
+    },
+    {
+      "id": "ai_era_9",
+      "theme_id": "ai_era",
+      "text": "創造性とは、既存のものを新しく結びつけることである",
+      "author": "スティーブ・ジョブズ",
+      "genre": "哲学",
+      "source": "スタンフォード大学卒業式スピーチ",
+      "year": "2005年",
+      "explanation": "AIは既存データを処理するが、人間は直感と経験で新しい意味を創造できる。創造性こそ人間の強み。"
+    },
+    {
+      "id": "ai_era_10",
+      "theme_id": "ai_era",
+      "text": "君子は器ならず",
+      "author": "孔子",
+      "genre": "哲学",
+      "source": "論語",
+      "year": "紀元前5世紀",
+      "explanation": "人間は特定の用途に限定される道具ではない。AIが専門機能を担う時代、人間は多面的な存在として成長すべき。"
+    },
+    {
+      "id": "no_correct_answer_1",
+      "theme_id": "no_correct_answer",
+      "text": "答えを見つけることより、問いを生きることが大切だ",
+      "author": "ライナー・マリア・リルケ",
+      "genre": "詩",
+      "source": "若き詩人への手紙",
+      "year": "1903年",
+      "explanation": "正解を急がず、問いそのものと共に生きる姿勢。不確実な時代に、答えを求めすぎない心の余裕を教える。"
+    },
+    {
+      "id": "no_correct_answer_2",
+      "theme_id": "no_correct_answer",
+      "text": "無知の知",
+      "author": "ソクラテス",
+      "genre": "哲学",
+      "source": "プラトン「ソクラテスの弁明」",
+      "year": "紀元前399年",
+      "explanation": "自分が知らないことを知っている謙虚さ。正解がないと認めることが、真の知恵への第一歩となる。"
+    },
+    {
+      "id": "no_correct_answer_3",
+      "theme_id": "no_correct_answer",
+      "text": "道の道とすべきは常の道にあらず",
+      "author": "老子",
+      "genre": "哲学",
+      "source": "道徳経",
+      "year": "紀元前6世紀",
+      "explanation": "言葉で固定できる真理は本当の真理ではない。正解を一つに定めず、柔軟に道を歩む姿勢を説く。"
+    },
+    {
+      "id": "no_correct_answer_4",
+      "theme_id": "no_correct_answer",
+      "text": "不確実性に耐える能力、それが知性である",
+      "author": "ジョン・キーツ",
+      "genre": "文学",
+      "source": "書簡集「ネガティブ・ケイパビリティ」",
+      "year": "1817年",
+      "explanation": "答えが出ない状態に耐え、拙速な結論を避ける力。正解のない時代を生きる知的成熟を示す概念。"
+    },
+    {
+      "id": "no_correct_answer_5",
+      "theme_id": "no_correct_answer",
+      "text": "人生はクローズアップで見れば悲劇だが、ロングショットで見れば喜劇だ",
+      "author": "チャールズ・チャップリン",
+      "genre": "文学",
+      "source": "自伝",
+      "year": "1964年",
+      "explanation": "視点を変えれば意味が変わる。正解がない時代、多角的な視点を持つことで人生を肯定できる。"
+    },
+    {
+      "id": "no_correct_answer_6",
+      "theme_id": "no_correct_answer",
+      "text": "初心忘るべからず",
+      "author": "世阿弥",
+      "genre": "日本の古典",
+      "source": "花鏡",
+      "year": "15世紀",
+      "explanation": "正解がなくても、最初の志と学び続ける姿勢を忘れなければ道は開ける。原点回帰の大切さを説く。"
+    },
+    {
+      "id": "no_correct_answer_7",
+      "theme_id": "no_correct_answer",
+      "text": "一期一会",
+      "author": "井伊直弼",
+      "genre": "日本の古典",
+      "source": "茶湯一会集",
+      "year": "19世紀",
+      "explanation": "正解を求めるより、今この瞬間を大切にする。一度きりの出会いに全力を尽くす生き方の指針。"
+    },
+    {
+      "id": "no_correct_answer_8",
+      "theme_id": "no_correct_answer",
+      "text": "空即是色、色即是空",
+      "author": "般若心経",
+      "genre": "仏教",
+      "source": "般若波羅蜜多心経",
+      "year": "1世紀頃",
+      "explanation": "すべては移ろい、固定した正解はない。空の思想は、執着を手放し自由に生きる智慧を与える。"
+    },
+    {
+      "id": "no_correct_answer_9",
+      "theme_id": "no_correct_answer",
+      "text": "人生に意味を問うのではなく、人生から問われていると知れ",
+      "author": "ヴィクトール・フランクル",
+      "genre": "心理学",
+      "source": "夜と霧",
+      "year": "1946年",
+      "explanation": "正解を探すのではなく、状況が自分に何を求めているかに応える。受動から能動への転換を促す。"
+    },
+    {
+      "id": "no_correct_answer_10",
+      "theme_id": "no_correct_answer",
+      "text": "万物は流転する",
+      "author": "ヘラクレイトス",
+      "genre": "哲学",
+      "source": "断片集",
+      "year": "紀元前6世紀",
+      "explanation": "すべては変化し続け、固定した正解はない。変化を自然として受け入れ、流れに乗る生き方を示唆。"
+    },
+    {
+      "id": "powerlessness_1",
+      "theme_id": "powerlessness",
+      "text": "たとえ明日世界が滅びるとしても、私は今日りんごの木を植える",
+      "author": "マルティン・ルター",
+      "genre": "哲学",
+      "source": "伝承",
+      "year": "16世紀",
+      "explanation": "結果が見えなくても今できることをする。無力感に負けず、小さな行動を続ける希望の言葉。"
+    },
+    {
+      "id": "powerlessness_2",
+      "theme_id": "powerlessness",
+      "text": "あなたがすることのほとんどは無意味であるが、それでもしなくてはならない。世界を変えるためではなく、世界によって自分が変えられないために",
+      "author": "マハトマ・ガンジー",
+      "genre": "哲学",
+      "source": "自叙伝",
+      "year": "20世紀",
+      "explanation": "行動の結果より、行動する自分を守ることに意味がある。無力感に飲まれず自己を保つ知恵。"
+    },
+    {
+      "id": "powerlessness_3",
+      "theme_id": "powerlessness",
+      "text": "変えられないものを受け入れる平静さと、変えられるものを変える勇気と、その違いを見分ける知恵を与えたまえ",
+      "author": "ラインホルド・ニーバー",
+      "genre": "哲学",
+      "source": "ニーバーの祈り",
+      "year": "1943年",
+      "explanation": "無力感の正体を見極め、自分にできることに集中する。心の平和を保つための実践的な祈り。"
+    },
+    {
+      "id": "powerlessness_4",
+      "theme_id": "powerlessness",
+      "text": "おのれに存するものを尽くして、天の命を待つ",
+      "author": "孟子",
+      "genre": "哲学",
+      "source": "孟子",
+      "year": "紀元前4世紀",
+      "explanation": "結果は天に任せ、自分ができることを尽くす。無力感を超えて行動する東洋的な処世の智慧。"
+    },
+    {
+      "id": "powerlessness_5",
+      "theme_id": "powerlessness",
+      "text": "一燈照隅、万燈照国",
+      "author": "最澄",
+      "genre": "仏教",
+      "source": "山家学生式",
+      "year": "9世紀",
+      "explanation": "一人が隅を照らせば、やがて国中が明るくなる。小さな行動の積み重ねが社会を変える希望を示す。"
+    },
+    {
+      "id": "powerlessness_6",
+      "theme_id": "powerlessness",
+      "text": "雨ニモマケズ、風ニモマケズ",
+      "author": "宮沢賢治",
+      "genre": "詩",
+      "source": "雨ニモマケズ",
+      "year": "1931年",
+      "explanation": "過酷な環境の中でも、他者のために行動し続ける姿勢。無力感を超えて生きる理想像を描く。"
+    },
+    {
+      "id": "powerlessness_7",
+      "theme_id": "powerlessness",
+      "text": "絶望の中にあっても、希望を見出すことができる。それが人間の特権である",
+      "author": "アルベール・カミュ",
+      "genre": "文学",
+      "source": "シーシュポスの神話",
+      "year": "1942年",
+      "explanation": "不条理な世界でも希望を持てるのが人間。無力感に抗い、意味を創造する実存主義の核心。"
+    },
+    {
+      "id": "powerlessness_8",
+      "theme_id": "powerlessness",
+      "text": "今、ここで、自分にできることをする。それが世界を変える唯一の方法だ",
+      "author": "アルフレッド・アドラー",
+      "genre": "心理学",
+      "source": "個人心理学講義",
+      "year": "20世紀",
+      "explanation": "大きな問題に圧倒されず、目の前の課題に取り組む。アドラー心理学の実践的な行動指針。"
+    },
+    {
+      "id": "powerlessness_9",
+      "theme_id": "powerlessness",
+      "text": "世の中は常にもがもな渚漕ぐ海人の小舟の綱手かなしも",
+      "author": "源実朝",
+      "genre": "日本の古典",
+      "source": "金槐和歌集",
+      "year": "13世紀",
+      "explanation": "世の無常の中で懸命に生きる人々への共感。無力さを感じながらも生き続ける人間の哀しみと美しさ。"
+    },
+    {
+      "id": "powerlessness_10",
+      "theme_id": "powerlessness",
+      "text": "大海の一滴となりて働け",
+      "author": "マザー・テレサ",
+      "genre": "哲学",
+      "source": "講話集",
+      "year": "20世紀",
+      "explanation": "一人の力は小さくても、全体の一部として貢献できる。無力感を超え、謙虚に行動する勇気を与える。"
+    }
+  ]
+}
