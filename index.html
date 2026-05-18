@@ -527,7 +527,7 @@
     <button class="btn-primary" id="btn-analyze" onclick="analyzeWorry()">哲学者たちの言葉を探す</button>
     <div class="status-msg" id="input-status"></div>
     <div class="api-section">
-      <div class="api-label">Claude API キー（任意）</div>
+      <div class="api-label">Claude API キー（オプション：言葉との対話機能で使用）</div>
       <div class="api-input-row">
         <input type="password" id="api-key-input" placeholder="sk-ant-..." autocomplete="off">
         <button class="btn-small" onclick="saveApiKey()">保存</button>
@@ -646,42 +646,72 @@ function hideLoading() {
   document.getElementById('loading').classList.remove('active');
 }
 
+// ===== THEME KEYWORDS (for offline classification) =====
+const THEME_KEYWORDS = {
+  comparison:        ['比較','比べ','劣って','優れ','羨まし','嫉妬','他人','周り','上','下','負け'],
+  loneliness:        ['孤独','孤立','一人','ひとり','寂し','疎外','誰もいない','友達','友人がいない'],
+  people_pleasing:   ['合わせ','気を使','気遣','断れ','嫌われ','どう思われ','顔色','八方美人'],
+  unforgiving:       ['許せ','許さ','恨','憎','怒り','腹','裏切','傷つけ'],
+  jealousy:          ['嫉妬','妬','羨まし','ずるい','不公平','なぜあの人','あの人ばかり'],
+  relationship_reset:['リセット','絶ち','縁切','人間関係','関わりたくない','消えたい','疲れた 人'],
+  cant_be_honest:    ['本音','言えない','伝えられ','思ってること','正直','建前','我慢'],
+  identity_lost:     ['何者','わからない 自分','アイデンティティ','自分らし','自分がない','どんな人間'],
+  no_confidence:     ['自信','できない','ダメ','失敗','自己肯定','向いていない','能力'],
+  no_purpose:        ['やりたいこと','夢がない','目標','何がしたい','情熱','好きなこと','見つから'],
+  past_regret:       ['過去','後悔','引きずる','トラウマ','忘れられ','あのとき','もしあのとき'],
+  emotional_control: ['感情','怒り','泣いて','爆発','コントロール','衝動','抑えられ','イライラ'],
+  perfectionism:     ['完璧','ミス','失敗できない','疲れ','頑張りすぎ','理想','高すぎ','完全'],
+  self_dislike:      ['自分が嫌','好きになれ','醜','ダメな自分','自己嫌悪','嫌いな自分'],
+  work_meaningless:  ['仕事','意味','やりがい','虚しい','なんのため','つまらない','働く意味'],
+  career_change:     ['転職','辞め','辞職','キャリア','今の会社','仕事変え','職場'],
+  effort_unrewarded: ['努力','報われ','頑張って','結果が出','認められ','評価されない'],
+  work_purpose:      ['なんのために働く','働く理由','生きるため','お金のため','仕事の目的'],
+  dream_abandon:     ['夢','諦め','現実','無理','続けるべき','やめるべき','あきらめ'],
+  life_meaning:      ['生きる意味','生きている理由','存在','死にたい','消えたい','なぜ生きる'],
+  fear_of_change:    ['変化','怖い','不安','変わる','踏み出せ','リスク','現状維持'],
+  happiness_unknown: ['幸せ','幸福','何が幸せ','満足','充実','足りない','ハッピー'],
+  death_thoughts:    ['死','死にたい','消えたい','終わりにしたい','死ぬこと','いなくなりたい'],
+  time_wasted:       ['時間','無駄','過ぎ','もったいない','焦り','年齢','若い頃','遅い'],
+  choice_regret:     ['選択','後悔','あのとき','別の道','もしも','違う選択','決断'],
+  world_dissatisfaction:['社会','世の中','理不尽','不満','おかしい','政治','格差','腐って'],
+  money_happiness:   ['お金','幸せ','豊か','貧し','収入','給料','富','経済'],
+  ai_era:            ['AI','人工知能','テクノロジー','自動化','仕事なくなる','未来','機械'],
+  no_correct_answer: ['正解','答え','どうすれば','迷い','判断','選べ','わからない'],
+  powerlessness:     ['環境','社会','無力','変えられ','どうにも','諦め 社会','できることがない']
+};
+
+function classifyWorry(text) {
+  const scores = {};
+  for (const [themeId, keywords] of Object.entries(THEME_KEYWORDS)) {
+    scores[themeId] = keywords.reduce((sum, kw) => sum + (text.includes(kw) ? 1 : 0), 0);
+  }
+  // Find best match
+  const best = Object.entries(scores).sort((a,b) => b[1]-a[1])[0];
+  // If no keyword matched, pick random theme
+  if (best[1] === 0) {
+    const idx = Math.floor(Math.random() * DB.themes.length);
+    return DB.themes[idx].id;
+  }
+  return best[0];
+}
+
 // ===== ANALYZE WORRY =====
-async function analyzeWorry() {
+function analyzeWorry() {
   const worry = document.getElementById('worry-input').value.trim();
   if (!worry) { setStatus('input-status', '悩みを入力してください', 'error'); return; }
 
-  const apiKey = getApiKey();
-  if (!apiKey) { setStatus('input-status', 'Claude APIキーを入力してください', 'error'); return; }
-
   if (!DB) {
-    setStatus('input-status', 'philosophy-database.json を読み込めませんでした', 'error');
+    setStatus('input-status', 'データベースを読み込み中です。少し待ってから再試行してください', 'error');
     return;
   }
 
-  showLoading('AIが悩みを分析しています…');
+  showLoading('言葉を探しています…');
   setStatus('input-status', '');
 
-  try {
-    const themeList = DB.themes.map(t => `${t.id}: ${t.label}`).join('\n');
-    const prompt = `以下の悩みがどのテーマに最も近いか、IDのみ1つ返してください。
-
-悩み：${worry}
-
-テーマ一覧：
-${themeList}
-
-最も近いテーマのIDのみを返してください（例: comparison）`;
-
-    const res = await callClaude(apiKey, prompt);
-    const themeId = res.trim().replace(/[^a-z_]/g, '');
-
-    const theme = DB.themes.find(t => t.id === themeId) || DB.themes[0];
-    showSpiderMap(theme.id, theme.label);
-  } catch(e) {
-    hideLoading();
-    setStatus('input-status', 'エラー: ' + e.message, 'error');
-  }
+  // Use keyword classification (no API needed)
+  const themeId = classifyWorry(worry);
+  const theme = DB.themes.find(t => t.id === themeId) || DB.themes[0];
+  showSpiderMap(theme.id, theme.label);
 }
 
 async function callClaude(apiKey, prompt, system='') {
@@ -846,7 +876,10 @@ async function sendDetailThought() {
   if (!thought) { setStatus('detail-status', '考えを入力してください', 'error'); return; }
 
   const apiKey = getApiKey();
-  if (!apiKey) { setStatus('detail-status', 'APIキーが未設定です', 'error'); return; }
+  if (!apiKey) {
+    setStatus('detail-status', 'Claude APIキーを入力欄に設定すると、AIが応答します。あなたの考えはそのまま大切に受け取りました。', 'ok');
+    return;
+  }
 
   setStatus('detail-status', '応答を生成中…');
   const quote = document.getElementById('d-quote').textContent;
