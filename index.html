@@ -263,10 +263,10 @@ body {
 }
 .qnode-text { font-size: 11px; line-height: 1.55; color: var(--text); overflow: hidden; }
 .author-tag {
-  position: absolute; transform: translate(-50%, -50%);
+  position: absolute; transform: translate(-50%, -100%);
   font-size: 11px; color: var(--muted);
   white-space: nowrap; pointer-events: none;
-  background: rgba(244,241,236,.82); padding: 2px 6px; border-radius: 4px;
+  background: rgba(244,241,236,.88); padding: 2px 7px; border-radius: 4px;
 }
 
 /* Genre colours */
@@ -691,12 +691,11 @@ function renderSpider() {
     const {x, y} = pts[i];
     const sz = sizes[i];
 
-    // Author label — midpoint
-    const mx = cx + (x - cx) * .58;
-    const my = cy + (y - cy) * .58;
+    // Author label — just above the node circle
     const al = document.createElement('div');
     al.className = 'author-tag';
-    al.style.left = mx + 'px'; al.style.top = my + 'px';
+    al.style.left = x + 'px';
+    al.style.top  = (y - sz / 2 - 6) + 'px';
     al.textContent = entry.author;
     layer.appendChild(al);
 
